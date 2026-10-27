@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>St. Paul's Visual Experience — Animation & Projection Production Portal</title>
+  <style>
+    :root {
+      --bg-dark: #0b0d13;
+      --bg-card: #131722;
+      --bg-card-hover: #191f2e;
+      --border: #262e42;
+      --gold: #e5b85c;
+      --gold-light: #ffe08a;
+      --text-main: #eef2f9;
+      --text-muted: #9aa5b8;
+      --accent-blue: #4da6ff;
+      --accent-green: #45d088;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Helvetica, Arial, sans-serif;
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      line-height: 1.6;
+      padding-bottom: 80px;
+    }
+    a { color: var(--gold-light); text-decoration: none; transition: 0.18s ease; }
+    a:hover { color: #ffffff; }
+
+    /* Sticky Top Nav */
+    .navbar {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(11, 13, 19, 0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 12px 28px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 14px;
+    }
+    .nav-brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 700;
+      font-size: 1.05rem;
+      letter-spacing: 0.4px;
+      color: var(--gold-light);
+    }
+    .nav-links {
+      display: flex;
+      gap: 18px;
+      align-items: center;
+      flex-wrap: wrap;
+      font-size: 0.9rem;
+    }
+    .nav-links a {
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+    .nav-links a:hover { color: var(--gold-light); }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 9px 16px;
+      border-radius: 7px;
+      font-weight: 600;
+      font-size: 0.88rem;
+      border: 1px solid var(--border);
+      background: #1c2233;
+      color: var(--text-main);
+      cursor: pointer;
+      transition: 0.18s ease;
+    }
+    .btn:hover {
+      background: #262f47;
+      border-color: var(--gold);
+      color: #fff;
+      transform: translateY(-1px);
+    }
+    .btn-gold {
+      background: linear-gradient(135deg, #d8a642 0%, #b58020 100%);
+      color: #0b0d13 !important;
+      border-color: #f3c86b;
+      font-weight: 700;
+    }
+    .btn-gold:hover {
+      background: linear-gradient(135deg, #f0c05a 0%, #ce962d 100%);
+      color: #000 !important;
+    }
+    .btn-sm {
+      padding: 6px 12px;
+      font-size: 0.82rem;
+    }
+
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* Hero */
+    .hero {
+      padding: 48px 0 36px;
+      border-bottom: 1px solid var(--border);
+      background: radial-gradient(circle at 50% 0%, rgba(229, 184, 92, 0.12), transparent 65%);
+    }
+    .badge {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 99px;
+      background: rgba(229, 184, 92, 0.15);
+      border: 1px solid rgba(229, 184, 92, 0.4);
+      color: var(--gold-light);
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 14px;
+    }
+    .hero h1 {
+      font-size: 2.35rem;
+      line-height: 1.2;
+      margin-bottom: 12px;
+      color: #fff;
+    }
+    .hero p {
+      font-size: 1.06rem;
+      color: var(--text-muted);
+      max-width: 880px;
+      margin-bottom: 24px;
+    }
+    .quick-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
+      gap: 14px;
+      margin-top: 22px;
+    }
+    .quick-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px 18px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 10px;
+      transition: 0.2s ease;
+    }
+    .quick-card:hover {
+      border-color: var(--gold);
+      background: var(--bg-card-hover);
+      transform: translateY(-2px);
+    }
+    .quick-card .q-num {
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: var(--gold);
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+    }
+    .quick-card h3 {
+      font-size: 1.02rem;
+      color: #fff;
+    }
+    .quick-card p {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin: 0;
+    }
+
+    /* Section Headers */
+    section {
+      padding-top: 52px;
+    }
+    .sec-header {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-bottom: 24px;
+      padding-bottom: 14px;
+      border-bottom: 1px solid var(--border);
+    }
+    .sec-header h2 {
+      font-size: 1.6rem;
+      color: #fff;
+    }
+    .sec-header p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
+    /* Audio Player Panel */
+    .audio-panel {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+    }
+    .audio-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+    audio {
+      width: 100%;
+      height: 44px;
+      margin-bottom: 16px;
+      border-radius: 8px;
+    }
+    .waveform-box {
+      position: relative;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+      margin-bottom: 16px;
+      cursor: pointer;
+    }
+    .waveform-box img {
+      width: 100%;
+      display: block;
+    }
+    .beat-Jump-bar {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(155px, 1fr));
+      gap: 8px;
+    }
+    .beat-pill {
+      background: #1a2030;
+      border: 1px solid var(--border);
+      border-radius: 7px;
+      padding: 8px 10px;
+      font-size: 0.8rem;
+      color: var(--text-main);
+      cursor: pointer;
+      text-align: left;
+      transition: 0.15s ease;
+    }
+    .beat-pill:hover, .beat-pill.active {
+      border-color: var(--gold);
+      background: rgba(229, 184, 92, 0.16);
+    }
+    .beat-pill strong {
+      display: block;
+      color: var(--gold-light);
+      font-size: 0.78rem;
+    }
+    .beat-pill span {
+      color: var(--text-muted);
+      font-size: 0.74rem;
+    }
+
+    /* 3-Zone Cards */
+    .zones-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+      gap: 22px;
+    }
+    .zone-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    .zone-img-wrap {
+      position: relative;
+      background: #07080c;
+      aspect-ratio: 16 / 9;
+      overflow: hidden;
+      cursor: zoom-in;
+      border-bottom: 1px solid var(--border);
+    }
+    .zone-img-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      display: block;
+      transition: transform 0.25s ease;
+    }
+    .zone-img-wrap:hover img {
+      transform: scale(1.02);
+    }
+    .zone-body {
+      padding: 20px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 14px;
+    }
+    .zone-body h3 {
+      font-size: 1.18rem;
+      color: var(--gold-light);
+      margin-bottom: 6px;
+    }
+    .spec-list {
+      list-style: none;
+      font-size: 0.88rem;
+      color: var(--text-muted);
+    }
+    .spec-list li {
+      margin-bottom: 6px;
+      padding-left: 14px;
+      position: relative;
+    }
+    .spec-list li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: var(--gold);
+    }
+    .spec-list code {
+      color: #d6e4ff;
+      background: rgba(255,255,255,0.06);
+      padding: 1px 5px;
+      border-radius: 4px;
+      font-size: 0.82rem;
+    }
+    .btn-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 8px;
+    }
+
+    /* Full width Masks banner */
+    .mask-banner {
+      margin-top: 24px;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 22px;
+      display: grid;
+      grid-template-columns: 1.15fr 1fr;
+      gap: 24px;
+      align-items: center;
+    }
+    @media (max-width: 960px) {
+      .mask-banner { grid-template-columns: 1fr; }
+      .zones-grid { grid-template-columns: 1fr; }
+    }
+    .mask-banner img {
+      width: 100%;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      cursor: zoom-in;
+    }
+
+    /* 12 Beats Grid */
+    .beats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(560px, 1fr));
+      gap: 24px;
+    }
+    @media (max-width: 680px) {
+      .beats-grid { grid-template-columns: 1fr; }
+    }
+    .beat-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      transition: 0.2s ease;
+    }
+    .beat-card:hover {
+      border-color: rgba(229, 184, 92, 0.65);
+    }
+    .beat-card-header {
+      padding: 14px 18px;
+      background: #171c29;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .beat-card-header h3 {
+      font-size: 1.05rem;
+      color: var(--gold-light);
+    }
+    .tc-tag {
+      font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+      font-size: 0.8rem;
+      background: rgba(77, 166, 255, 0.14);
+      color: #8ac4ff;
+      padding: 3px 9px;
+      border-radius: 5px;
+      border: 1px solid rgba(77, 166, 255, 0.3);
+    }
+    .beat-img-wrap {
+      background: #08090d;
+      cursor: zoom-in;
+      border-bottom: 1px solid var(--border);
+      overflow: hidden;
+    }
+    .beat-img-wrap img {
+      width: 100%;
+      display: block;
+      transition: transform 0.25s ease;
+    }
+    .beat-img-wrap:hover img {
+      transform: scale(1.015);
+    }
+    .beat-card-body {
+      padding: 16px 18px;
+      font-size: 0.88rem;
+      color: var(--text-muted);
+    }
+    .beat-card-body p {
+      margin-bottom: 8px;
+    }
+    .beat-card-body strong {
+      color: var(--text-main);
+    }
+
+    /* Table */
+    .table-wrap {
+      overflow-x: auto;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.86rem;
+      text-align: left;
+    }
+    th, td {
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--border);
+      vertical-align: top;
+    }
+    th {
+      background: #181e2c;
+      color: var(--gold-light);
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    tr:hover td {
+      background: rgba(255, 255, 255, 0.02);
+    }
+    .mono {
+      font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+      color: #9ecbff;
+      white-space: nowrap;
+    }
+
+    /* Lightbox Modal */
+    .lightbox {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(5, 7, 11, 0.92);
+      backdrop-filter: blur(8px);
+      z-index: 999;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      flex-direction: column;
+      gap: 14px;
+    }
+    .lightbox.open { display: flex; }
+    .lightbox img {
+      max-width: 95vw;
+      max-height: 85vh;
+      border-radius: 8px;
+      border: 1px solid var(--gold);
+      box-shadow: 0 20px 60px rgba(0,0,0,0.85);
+    }
+    .lightbox-caption {
+      color: var(--gold-light);
+      font-weight: 600;
+      font-size: 1rem;
+    }
+    .lightbox-close {
+      position: absolute;
+      top: 20px;
+      right: 28px;
+      font-size: 2rem;
+      color: #fff;
+      cursor: pointer;
+      line-height: 1;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Sticky Navigation -->
+  <nav class="navbar">
+    <div class="nav-brand">
+      <span>🏛️ ST. PAUL'S VISUAL EXPERIENCE</span>
+    </div>
+    <div class="nav-links">
+      <a href="#audio-timeline">10-Min Scratch Audio</a>
+      <a href="#templates-masks">3-Zone Templates &amp; Masks</a>
+      <a href="#styleframes">12-Beat Styleframes</a>
+      <a href="#shot-tracker">72-Shot Tracker</a>
+      <a class="btn btn-gold" href="https://drive.google.com/drive/folders/146Eo9lbyalGUcAcYa3lhTnxZHZsUg0CQ" target="_blank" rel="noopener">
+        📂 Open Master Google Drive
+      </a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="container">
+      <span class="badge">Production &amp; Animation Handoff Portal</span>
+      <h1>St. Paul’s Episcopal Church — 10-Minute Architectural Projection Experience</h1>
+      <p>
+        Complete production package for <strong>Alex &amp; Animation Team</strong> covering all three sanctuary projection zones
+        (<strong>Chancel Backdrop Wall</strong>, <strong>Center Ceiling Medallion</strong>, and <strong>Far Ceiling Chancel Vault</strong>),
+        pre-cut alpha masks, RGB ID mattes, 12-beat visual styleframes, 10-minute scratch audio guide track, and 229 curated public-domain historical assets.
+      </p>
+
+      <div class="quick-grid">
+        <a class="quick-card" href="https://drive.google.com/drive/folders/1J80UZBo0ZZeSEBc7aKO-MlddqfzEd5Ek" target="_blank" rel="noopener">
+          <span class="q-num">Folder 01</span>
+          <h3>📐 Templates &amp; Alpha Masks</h3>
+          <p>3240×1920 + 3× 9:16 Vertical Slices, 16:9 Medallion &amp; Squared Far Ceiling + Masks &amp; RGB ID Mattes.</p>
+        </a>
+        <a class="quick-card" href="https://drive.google.com/drive/folders/1PbMP6xWwV_G2LzKnx1WVK9KMUQS3o3HO" target="_blank" rel="noopener">
+          <span class="q-num">Folder 02</span>
+          <h3>📖 Storyboards &amp; Guides</h3>
+          <p>12-Beat Projection Surface Guide, Creative Meeting Notes, Sourcing Guide &amp; Handwritten Notes.</p>
+        </a>
+        <a class="quick-card" href="https://drive.google.com/drive/folders/1APVQYvMNepmHAwuv5rlOJmvEY4-Y7vjO" target="_blank" rel="noopener">
+          <span class="q-num">Folder 03</span>
+          <h3>🎨 12-Beat Visual Styleframes</h3>
+          <p>12 Multi-Surface Presentation Boards + 36 Full-Res Individual Zone Concept Mockups.</p>
+        </a>
+        <a class="quick-card" href="https://drive.google.com/drive/folders/1zGvX3EqY38j3uVd31whCMnVRZRwwZKJ1" target="_blank" rel="noopener">
+          <span class="q-num">Folder 04</span>
+          <h3>🎵 10-Min Scratch Audio &amp; Cues</h3>
+          <p>600s Stereo Guide Track (.WAV &amp; .MP3), 12 Individual Beat Stems &amp; After Effects Marker CSV.</p>
+        </a>
+        <a class="quick-card" href="https://drive.google.com/drive/folders/1D2CcLyMHwIFP8P1M-tgdLi9ibFnVJiPJ" target="_blank" rel="noopener">
+          <span class="q-num">Folder 05</span>
+          <h3>📊 72-Shot Production Tracker</h3>
+          <p>Master CSV Spreadsheet &amp; Dashboard covering all 12 Beats × 6 Canvas Deliverables.</p>
+        </a>
+        <a class="quick-card" href="https://drive.google.com/drive/folders/1mQMkYqKieG2B3QYAVQpzlJKJQO6QQwVX" target="_blank" rel="noopener">
+          <span class="q-num">Asset Library</span>
+          <h3>🏛️ 229 Public-Domain Assets</h3>
+          <p>High-res archival photos, NASA imagery, botanical plates, 4K videos &amp; audio stems by beat.</p>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- SECTION 1: 10-MINUTE SCRATCH AUDIO & INTERACTIVE TIMELINE -->
+    <section id="audio-timeline">
+      <div class="sec-header">
+        <div>
+          <h2>1. 10-Minute Master Show Timeline &amp; Stereo Scratch Audio Track</h2>
+          <p>Click any beat below to jump the audio player directly to that beat’s timecode (`00:00:00` – `00:10:00`, `18,000 frames @ 30fps`).</p>
+        </div>
+        <div class="btn-row">
+          <a class="btn btn-gold" href="https://drive.google.com/file/d/10vCTknJZNeLVxWjZwYu1oGYzruyKdYdU/view?usp=sharing" target="_blank" rel="noopener">⬇ Download 48kHz WAV (Drive)</a>
+          <a class="btn" href="assets/St_Pauls_10Min_Show_Scratch_Audio_Track.mp3" download>⬇ Download MP3</a>
+          <a class="btn" href="assets/St_Pauls_Timecode_Markers_AfterEffects_Premiere.csv" download>⬇ AE / Premiere Markers (.CSV)</a>
+        </div>
+      </div>
+
+      <div class="audio-panel">
+        <div class="audio-top">
+          <div>
+            <strong id="now-playing-label" style="color: var(--gold-light); font-size: 1.05rem;">
+              ▶ Ready: Full 10-Minute Show Scratch Audio Guide Track (00:00 – 10:00)
+            </strong>
+          </div>
+          <a class="btn btn-sm" href="https://drive.google.com/drive/folders/1lMKA7x45Oe9c19Ia_DxlSIj8p9exFYsV" target="_blank" rel="noopener">
+            📂 Individual Beat Audio Stems (Beat 01–12)
+          </a>
+        </div>
+
+        <audio id="master-audio" controls preload="metadata">
+          <source src="assets/St_Pauls_10Min_Show_Scratch_Audio_Track.mp3" type="audio/mpeg" />
+        </audio>
+
+        <div class="waveform-box" onclick="openLightbox('assets/waveform_timeline.png', '10-Minute Show Timeline & Scratch Audio Waveform Chart')">
+          <img src="assets/waveform_timeline.png" alt="10-Minute Audio Waveform & 12-Beat Timeline Chart" />
+        </div>
+
+        <div class="beat-Jump-bar">
+          <button class="beat-pill" onclick="seekBeat(0, 'Beat 01: Creation (00:00 – 00:45)')"><strong>Beat 01: Creation</strong><span>00:00 – 00:45 (45s)</span></button>
+          <button class="beat-pill" onclick="seekBeat(45, 'Beat 02: Growth — Weeping Willow (00:45 – 01:30)')"><strong>Beat 02: Growth</strong><span>00:45 – 01:30 (45s)</span></button>
+          <button class="beat-pill" onclick="seekBeat(90, 'Beat 03: Domination — 1865 Steeple (01:30 – 02:30)')"><strong>Beat 03: Domination</strong><span>01:30 – 02:30 (60s)</span></button>
+          <button class="beat-pill" onclick="seekBeat(150, 'Beat 04: Separation — Richmond Planet (02:30 – 03:15)')"><strong>Beat 04: Separation</strong><span>02:30 – 03:15 (45s)</span></button>
+          <button class="beat-pill" onclick="seekBeat(195, 'Beat 05: Community — Civil Rights (03:15 – 04:15)')"><strong>Beat 05: Community</strong><span>03:15 – 04:15 (60s)</span></button>
+          <button class="beat-pill" onclick="seekBeat(255, 'Beat 06: Questioning — Sacred Triangle (04:15 – 05:00)')"><strong>Beat 06: Questioning</strong><span>04:15 – 05:00 (45s)</span></button>
+          <button class="beat-pill" onclick="seekBeat(300, 'Beat 07: Diversity — Interfaith & Spong (05:00 – 05:45)')"><strong>Beat 07: Diversity</strong><span>05:00 – 05:45 (45s)</span></button>
+          <button class="beat-pill" onclick="seekBeat(345, 'Beat 08: Equality — Women’s Leadership (05:45 – 06:30)')"><strong>Beat 08: Equality</strong><span>05:45 – 06:30 (45s)</span></button>
+          <button class="beat-pill" onclick="seekBeat(390, 'Beat 09: Inclusivity — AIDS Quilt & Tapestry (06:30 – 07:30)')"><strong>Beat 09: Inclusivity</strong><span>06:30 – 07:30 (60s)</span></button>
+          <button class="beat-pill" onclick="seekBeat(450, 'Beat 10: Truth-Telling & Reckoning (07:30 – 08:30)')"><strong>Beat 10: Truth-Telling</strong><span>07:30 – 08:30 (60s)</span></button>
+          <button class="beat-pill" onclick="seekBeat(510, 'Beat 11: Hope & Possibility — Butterflies (08:30 – 09:15)')"><strong>Beat 11: Hope &amp; Mosaic</strong><span>08:30 – 09:15 (45s)</span></button>
+          <button class="beat-pill" onclick="seekBeat(555, 'Beat 12: Close — Floating Sky Lanterns (09:15 – 10:00)')"><strong>Beat 12: Close</strong><span>09:15 – 10:00 (45s)</span></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: 3 PROJECTION ZONES, TEMPLATES & ALPHA MASKS -->
+    <section id="templates-masks">
+      <div class="sec-header">
+        <div>
+          <h2>2. Architectural Projection Templates, Alpha Masks &amp; RGB ID Mattes</h2>
+          <p>All templates are 1:1 square-pixel aspect ratio (zero stretching) with pre-cut PNG alpha/luma masks and line-art overlays.</p>
+        </div>
+        <a class="btn btn-gold" href="https://drive.google.com/drive/folders/1J80UZBo0ZZeSEBc7aKO-MlddqfzEd5Ek" target="_blank" rel="noopener">
+          📂 Open All Templates &amp; Masks (Google Drive)
+        </a>
+      </div>
+
+      <div class="zones-grid">
+        <!-- Zone 1 -->
+        <div class="zone-card">
+          <div class="zone-img-wrap" onclick="openLightbox('assets/zone1_backdrop_grid.jpg', 'Zone 1: Chancel Backdrop Wall (3240×1920 Master + 3× 1080×1920 9:16 Vertical Slices)')">
+            <img src="assets/zone1_backdrop_grid.jpg" alt="Zone 1 Chancel Backdrop 3x 9:16 Slices" />
+          </div>
+          <div class="zone-body">
+            <div>
+              <h3>Zone 1: Chancel Backdrop Wall (3× 9:16 Vertical Slices)</h3>
+              <ul class="spec-list">
+                <li><strong>Master Working Canvas:</strong> <code>3240 × 1920</code> (plus <code>6480 × 3840</code> 6K master)</li>
+                <li><strong>Slice 1 (Left 9:16):</strong> <code>1080 × 1920</code> (<code>x: 0–1080</code>, Left Columns &amp; Arch Window)</li>
+                <li><strong>Slice 2 (Center 9:16):</strong> <code>1080 × 1920</code> (<code>x: 1080–2160</code>, Center Arch, Marble Reredos &amp; Tiffany <em>Last Supper</em> Mosaic)</li>
+                <li><strong>Slice 3 (Right 9:16):</strong> <code>1080 × 1920</code> (<code>x: 2160–3240</code>, Right Arch Window &amp; Column)</li>
+                <li><strong>Pre-Cut Masks Included:</strong> Walls Only (<code>Mask_01</code>), 3 Stained-Glass Windows (<code>Mask_02</code>), Tiffany Mosaic (<code>Mask_03</code>), Marble Reredos (<code>Mask_04</code>), 4 Corinthian Columns (<code>Mask_05</code>), Line-Art &amp; RGB ID Matte.</li>
+              </ul>
+            </div>
+            <div class="btn-row">
+              <a class="btn btn-gold btn-sm" href="https://drive.google.com/drive/folders/1EG51mQe-UASTgxAwCc1sCzLlzjlD2TOj" target="_blank" rel="noopener">📂 Zone 1 Templates &amp; Masks (Drive)</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Zone 2 -->
+        <div class="zone-card">
+          <div class="zone-img-wrap" onclick="openLightbox('assets/zone2_medallion_1080p.jpg', 'Zone 2: Center Ceiling Medallion (1920×1080 & 3840×2160 16:9 Centered)')">
+            <img src="assets/zone2_medallion_1080p.jpg" alt="Zone 2 Center Ceiling Medallion 16:9" />
+          </div>
+          <div class="zone-body">
+            <div>
+              <h3>Zone 2: Center Ceiling Medallion (16:9 Full-Height Centered)</h3>
+              <ul class="spec-list">
+                <li><strong>Working &amp; 4K Canvases:</strong> <code>1920 × 1080</code> (1080p) &amp; <code>3840 × 2160</code> (4K UHD)</li>
+                <li><strong>Active Square Medallion:</strong> <code>1080 × 1080</code> centered at <code>x: 420–1500</code> (<code>cx=960, cy=540</code>)</li>
+                <li><strong>Concentric Ring Masks Included:</strong> Full Circular Dome (<code>Mask_01</code>, <code>r &le; 518px</code>), Center Gold Triangle / Tetragrammaton (<code>Mask_02</code>), Inner Sunburst Core (<code>Mask_03</code>, <code>r &le; 166px</code>), Ornate Acanthus Ring (<code>Mask_04</code>, <code>r: 166–346px</code>), Outer 20-Coffer Wheel (<code>Mask_05</code>, <code>r: 346–518px</code>), and Greek Key Spandrels (<code>Mask_06</code>).</li>
+              </ul>
+            </div>
+            <div class="btn-row">
+              <a class="btn btn-gold btn-sm" href="https://drive.google.com/drive/folders/1pHeHnlT78jVjND4T-VxTEMUu5em1GsAF" target="_blank" rel="noopener">📂 Zone 2 Templates &amp; Masks (Drive)</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Zone 3 -->
+        <div class="zone-card">
+          <div class="zone-img-wrap" onclick="openLightbox('assets/zone3_far_ceiling_grid.jpg', 'Zone 3: Far Ceiling Chancel Vault & Beam (Perspective-Rectified & Squared 16:9)')">
+            <img src="assets/zone3_far_ceiling_1080p.jpg" alt="Zone 3 Far Ceiling Chancel Vault 16:9" />
+          </div>
+          <div class="zone-body">
+            <div>
+              <h3>Zone 3: Far Ceiling Chancel Vault &amp; Beam (16:9 Squared)</h3>
+              <ul class="spec-list">
+                <li><strong>Working &amp; 4K Canvases:</strong> <code>1920 × 1080</code> (1080p) &amp; <code>3840 × 2160</code> (4K UHD)</li>
+                <li><strong>Perspective-Rectified:</strong> Top Beam leveled to <code>0.0 px</code> horizontal error; vertical coffer stiles plumb; centered at <code>x = 960</code>.</li>
+                <li><strong>Pre-Cut Masks Included:</strong> Top Horizontal Classical Beam (<code>Mask_01</code>), Full U-Shaped Coffer Vault (<code>Mask_02</code>), Center Large Square Coffer (<code>Mask_03</code>), 8 Perimeter Coffers (<code>Mask_04</code>), Structural Coffer Ribs &amp; Stiles Only (<code>Mask_05</code>), Line-Art &amp; RGB ID Matte.</li>
+              </ul>
+            </div>
+            <div class="btn-row">
+              <a class="btn btn-gold btn-sm" href="https://drive.google.com/drive/folders/160MkbTXlt4hAj99HNF6VhLfi8Zr7tYUC" target="_blank" rel="noopener">📂 Zone 3 Templates &amp; Masks (Drive)</a>
+              <button class="btn btn-sm" onclick="openLightbox('assets/zone3_far_ceiling_grid.jpg', 'Zone 3: Alignment Grid Verification')">🔍 View Alignment Grid</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RGB ID & Alpha Masks Overview Banner -->
+      <div class="mask-banner">
+        <img src="assets/all_zones_masks_id.jpg" alt="All 3 Zones RGB ID Mattes and Architectural Line-Art Overlays" onclick="openLightbox('assets/all_zones_masks_id.jpg', 'All 3 Zones — Architectural Alpha Masks, Line-Art Overlays & RGB ID Mattes')" />
+        <div>
+          <span class="badge">Universal Alpha + Luma + RGB ID Mattes</span>
+          <h3 style="font-size: 1.35rem; color: #fff; margin-bottom: 10px;">Pre-Registered Architectural Masks &amp; Line-Art Overlays</h3>
+          <p style="color: var(--text-muted); font-size: 0.92rem; margin-bottom: 14px;">
+            Every mask PNG is saved with universal <strong>White RGB + Alpha Channel</strong> so it works out-of-the-box as either an <strong>Alpha Matte</strong> or <strong>Luma Matte</strong> in After Effects, Premiere Pro, DaVinci Resolve, Cinema 4D, and Resolume Arena.
+          </p>
+          <ul class="spec-list" style="margin-bottom: 18px;">
+            <li><strong>Backdrop RGB ID Matte:</strong> Magenta = Sanctuary Walls | Red = 4 Corinthian Columns | Green = 3 Stained-Glass Windows | Gold = Tiffany <em>Last Supper</em> Mosaic | Cyan = Marble Reredos &amp; Altar</li>
+            <li><strong>Medallion RGB ID Matte:</strong> Gold = Sacred Triangle | Red = Inner Sunburst | Green = Ornate Acanthus Ring | Blue = 20-Coffer Wheel | Magenta = Greek Key Spandrels</li>
+            <li><strong>Far Ceiling RGB ID Matte:</strong> Red = Top Horizontal Beam | Gold = Coffer Structural Ribs | Green = Center Large Coffer | Blue = 8 Perimeter Coffers</li>
+          </ul>
+          <div class="btn-row">
+            <a class="btn btn-gold" href="https://drive.google.com/file/d/1JUwDU26gLMEoxQW7CTtQIZNpPaiDPywZ/view?usp=sharing" target="_blank" rel="noopener">🔍 Open High-Res RGB ID Chart (Drive)</a>
+            <button class="btn" onclick="openLightbox('assets/all_zones_masks_id.jpg', 'All 3 Zones — RGB ID Mattes & Architectural Line-Art')">⛶ Full-Screen Zoom</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: 12-BEAT MULTI-SURFACE VISUAL STYLEFRAMES -->
+    <section id="styleframes">
+      <div class="sec-header">
+        <div>
+          <h2>3. 12-Beat Multi-Surface Visual Styleframes &amp; Concept Mockups</h2>
+          <p>Click any board to inspect full-screen, play that beat's audio cue, or open its curated public-domain assets folder.</p>
+        </div>
+        <div class="btn-row">
+          <a class="btn btn-gold" href="https://drive.google.com/drive/folders/1APVQYvMNepmHAwuv5rlOJmvEY4-Y7vjO" target="_blank" rel="noopener">📂 All 12 Styleframe Boards (Drive)</a>
+          <a class="btn" href="https://drive.google.com/drive/folders/1Z8lbo3P_nAlhTHW7VV8bfw7KB_SqNwIb" target="_blank" rel="noopener">📂 36 Individual Zone Mockups</a>
+          <button class="btn" onclick="openLightbox('assets/contact_sheet_12_beats.jpg', 'All 12 Beats — Master Contact Sheet')">🖼️ View 12-Beat Contact Sheet</button>
+        </div>
+      </div>
+
+      <div class="beats-grid" id="beats-container"></div>
+    </section>
+
+    <!-- SECTION 4: 72-SHOT PRODUCTION TRACKER & STORYBOARD DOCS -->
+    <section id="shot-tracker">
+      <div class="sec-header">
+        <div>
+          <h2>4. Master 12-Beat / 72-Shot Production Schedule &amp; Asset Links</h2>
+          <p>Each beat has 6 pre-registered canvas outputs (Full 3240×1920 Backdrop, Left/Center/Right 9:16 Slices, Center Medallion, and Far Ceiling Vault).</p>
+        </div>
+        <div class="btn-row">
+          <a class="btn btn-gold" href="assets/St_Pauls_Master_Shot_and_Canvas_Tracker.csv" download>⬇ Download 72-Shot Tracker (.CSV)</a>
+          <a class="btn" href="https://drive.google.com/file/d/1S6IsVJn5RlcGZdlsDspLLFaemvUEjUNl/view?usp=sharing" target="_blank" rel="noopener">📖 Storyboard Guide (.MD)</a>
+          <button class="btn" onclick="openLightbox('assets/storyboard_handwritten.jpg', 'Original Handwritten 12-Beat Storyboard Notes')">📝 Handwritten Notes</button>
+        </div>
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Beat</th>
+              <th>Timecode (30fps)</th>
+              <th>Dur / Frames</th>
+              <th>Zone 1: Chancel Backdrop (3240×1920 &amp; 3× 9:16)</th>
+              <th>Zone 2: Center Medallion (1920×1080)</th>
+              <th>Zone 3: Far Ceiling Vault (1920×1080)</th>
+              <th>Source Assets</th>
+            </tr>
+          </thead>
+          <tbody id="tracker-tbody"></tbody>
+        </table>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Lightbox Modal -->
+  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <span class="lightbox-close">&times;</span>
+    <img id="lightbox-img" src="" alt="" />
+    <div class="lightbox-caption" id="lightbox-caption"></div>
+  </div>
+
+  <script>
+    const BEATS_DATA = [
+      {
+        num: "01",
+        title: "Beat 01: Creation — Cosmic Genesis & Sacred Geometry",
+        tc: "00:00:00 – 00:00:45",
+        dur: "45s (1,350f)",
+        startSec: 0,
+        img: "assets/beat_01_styleframe.jpg",
+        driveBoard: "https://drive.google.com/file/d/15ZroGqpcBr4iu4Fh5R8rnfyPVyE6kOuY/view?usp=sharing",
+        driveAssets: "https://drive.google.com/drive/folders/1PPsPIbesz1asmUtzRcZpTqcQscqTJt60",
+        audio: "Warm Cosmic Organ/Synth Pad (Yamaha CK61) + Subtle Night Crickets Genesis Bed",
+        z1: "Slow reveal of JWST Carina Nebula & Pillars of Creation across sanctuary walls; stained-glass windows glow celestial blue; golden edge-trace outlines the 4 Corinthian columns.",
+        z2: "Darkness to rotating golden starburst in inner core (r<=166px); outer 20 mini-coffers pulse sequentially with starlight.",
+        z3: "Top Horizontal Beam traces in gold from center outward; 9 coffer recesses open to deep-space nebula parallax."
+      },
+      {
+        num: "02",
+        title: "Beat 02: Growth — The Weeping Willow & Living Sanctuary",
+        tc: "00:00:45 – 00:01:30",
+        dur: "45s (1,350f)",
+        startSec: 45,
+        img: "assets/beat_02_styleframe.jpg",
+        driveBoard: "https://drive.google.com/file/d/1QZw713VlJtCHilWIlCOyP6UE59GdeTlS/view?usp=sharing",
+        driveAssets: "https://drive.google.com/drive/folders/1PPsPIbesz1asmUtzRcZpTqcQscqTJt60",
+        audio: "Woodland Dawn Birdsong Chorus + Nightingale in Willow Shrubs",
+        z1: "Botanical roots & vines climb the 4 Corinthian columns; Redoute Weeping Willow & Monet Willow paintings fill Left/Right walls; Tiffany Magnolia & Landscape windows illuminate the 3 arches.",
+        z2: "Weeping willow branches canopy the circular dome; botanical blossoms bloom radially across the ornate acanthus ring.",
+        z3: "Tiffany autumn landscape stained glass fills the 9 coffer skylights; Top Beam shimmers with dappled emerald leaf light."
+      },
+      {
+        num: "03",
+        title: "Beat 03: Domination — 1865 Tall Steeple, Confederacy & Fall of Richmond",
+        tc: "00:01:30 – 00:02:30",
+        dur: "60s (1,800f)",
+        startSec: 90,
+        img: "assets/beat_03_styleframe.jpg",
+        driveBoard: "https://drive.google.com/file/d/1rCufUJghkEwxK88NHRk2tRHKrqi9pIRu/view?usp=sharing",
+        driveAssets: "https://drive.google.com/drive/folders/1Cf1YMwdUFBRQmrBC4tY9h1zY2MscSkBC",
+        audio: "Solemn Tolling Church Bell + Somber Howling Wind & Low Drone",
+        z1: "Original 1865 St. Paul's tall steeple rises in Center 9:16 slice; Eyre Crowe's Richmond Slave Market & Lumpkin's Slave Jail engravings appear on Left/Right walls; ember glow & smoke.",
+        z2: "Heavy iron/charcoal vignette; 1865 ruined district panorama & Capitol Square spire revolve slowly in sepia/ember tones.",
+        z3: "Tredegar Iron Works & 1865 Richmond ruins fill the coffered vault; heavy structural shadows across the Top Beam."
+      },
+      {
+        num: "04",
+        title: "Beat 04: Separation — Reconstruction, Jim Crow & 'The Richmond Planet'",
+        tc: "00:02:30 – 00:03:15",
+        dur: "45s (1,350f)",
+        startSec: 150,
+        img: "assets/beat_04_styleframe.jpg",
+        driveBoard: "https://drive.google.com/file/d/17KkkL8ZNcPeb5naiEVW5N98IhCJP023z/view?usp=sharing",
+        driveAssets: "https://drive.google.com/drive/folders/14wr3KLbMZeyWmE8y9duy4WhC6xVtiTZP",
+        audio: "Rhythmic Mechanical Printing Press & Newsroom Typewriter Clatter",
+        z1: "Sharp white architectural grid lines divide the sanctuary; John Mitchell Jr. ('The Fighting Editor') & 'The Richmond Planet' 1902/1904 Streetcar Boycott front pages animate like letterpress plates.",
+        z2: "John Mitchell Jr. 1891 wood engraving & 'Strong Arm of Justice' masthead radiate from the center medallion.",
+        z3: "1899 Richmond Planet composing room & press room photographs fill the 9 isolated coffer cells with crisp dividing ribs."
+      },
+      {
+        num: "05",
+        title: "Beat 05: Community — Visiting Nurses, Civil Rights & MLK Jr.",
+        tc: "00:03:15 – 00:04:15",
+        dur: "60s (1,800f)",
+        startSec: 195,
+        img: "assets/beat_05_styleframe.jpg",
+        driveBoard: "https://drive.google.com/file/d/17RlXviG4DOT_4Y1G7YW3Dgx6maFPyMSS/view?usp=sharing",
+        driveAssets: "https://drive.google.com/drive/folders/1_jfQQhsZYSsq7o2snjoMXTSCdum78pkx",
+        audio: "'Go Down Moses' Spiritual + Bach Partita No. 3 Solo Violin Preludio",
+        z1: "Warm amber light melts the dividing lines; Gordon Parks 1943 Visiting Nurse & Mary McLeod Bethune portraits on Left/Right; MLK Jr. & 1963 March on Washington in Center Arch.",
+        z2: "1963 March on Washington leaders locking arms & USIA portraits form a unified human ring around the dome.",
+        z3: "Public Health Visiting Nurses (VNA) & Civil Rights marchers illuminate the 9 coffers in warm golden sepia."
+      },
+      {
+        num: "06",
+        title: "Beat 06: Questioning — 1960s/70s Ferment & The Sacred Triangle",
+        tc: "00:04:15 – 00:05:00",
+        dur: "45s (1,350f)",
+        startSec: 255,
+        img: "assets/beat_06_styleframe.jpg",
+        driveBoard: "https://drive.google.com/file/d/1hAoQkpw7Rretyt5Wt_Bh2zocSVBzSNfs/view?usp=sharing",
+        driveAssets: "https://drive.google.com/drive/folders/1CrNSQ-dUmFTEn5IsmUpPhPxSpLRVrB3V",
+        audio: "Contemplative Ambient Soundscape + Resonant Cathedral Bell",
+        z1: "1960s/70s peace marches, Coretta Scott King candlelight march & 1476 Kennicott Bible Hebrew calligraphy; upward light beams draw eyes toward the ceiling.",
+        z2: "HERO MOMENT: The physical Gold Triangle (Tetragrammaton) at the center of the Medallion ignites with radiant golden geometry & sunburst rays.",
+        z3: "1478 Washington Haggadah illuminated manuscript & warm liturgical gold trace the vault ribs and Top Beam."
+      },
+      {
+        num: "07",
+        title: "Beat 07: Diversity — Bishop John Shelby Spong & Interfaith Dialogue",
+        tc: "00:05:00 – 00:05:45",
+        dur: "45s (1,350f)",
+        startSec: 300,
+        img: "assets/beat_07_styleframe.jpg",
+        driveBoard: "https://drive.google.com/file/d/1gVBsDRrJPDMXFanXEieP0oVfffJL0WBY/view?usp=sharing",
+        driveAssets: "https://drive.google.com/drive/folders/1CrNSQ-dUmFTEn5IsmUpPhPxSpLRVrB3V",
+        audio: "Hypnotic Interfaith Ambient Bed + St. Matthias Trier Bells",
+        z1: "Bishop John Shelby Spong (rector during 1973 interfaith lectures) & Temple Church stained-glass rose window; interfaith symbols glow inside the 3 arched windows.",
+        z2: "Star of David, Menorah, Star & Crescent, Christian Cross, Dharma Wheel & Om symbol rotate through the 20 radial mini-coffers.",
+        z3: "Hebrew calligraphic chart & luminous sapphire/gold interfaith geometry across the 9 coffers."
+      },
+      {
+        num: "08",
+        title: "Beat 08: Equality — The Philadelphia Eleven & Women's Leadership",
+        tc: "00:05:45 – 00:06:30",
+        dur: "45s (1,350f)",
+        startSec: 345,
+        img: "assets/beat_08_styleframe.jpg",
+        driveBoard: "https://drive.google.com/file/d/1BX0wWwuruhvq1YtIaf4BT8_fZ6BSQ9fX/view?usp=sharing",
+        driveAssets: "https://drive.google.com/drive/folders/1pO84uWPzTpMeiF4SdNMLW3BNnQnFl9kw",
+        audio: "'Cantate Domino' Choral Harmony + Pipe Choir 'Nebulus' Uplifting Pad",
+        z1: "Church of the Advocate (1974 Philadelphia Eleven ordination site) in Center slice; Shirley Chisholm & Gloria Steinem on Left/Right; Lennon & Ono 1969 Bed-In for Peace in windows.",
+        z2: "Central Park 'IMAGINE' mosaic & 1970 Women's Strike for Equality marchers revolve in suffragette violet, white & gold.",
+        z3: "1970 Women's Liberation & 1978 ERA ratification banners illuminate the coffered vault."
+      },
+      {
+        num: "09",
+        title: "Beat 09: Inclusivity — AIDS Memorial Quilt, Tapestry & Full Welcome",
+        tc: "00:06:30 – 00:07:30",
+        dur: "60s (1,800f)",
+        startSec: 390,
+        img: "assets/beat_09_styleframe.jpg",
+        driveBoard: "https://drive.google.com/file/d/12pkDFPdkyGLDPPjirxyfs-6SXwiQhD1e/view?usp=sharing",
+        driveAssets: "https://drive.google.com/drive/folders/1_ye5s4MThaqra1QcKzaK-f98-AOU9tYX",
+        audio: "USAF String Quartet 'Among The Leaves So Green' + Joyful Ambient Pulse",
+        z1: "AIDS Memorial Quilt on the National Mall (Left), Met Museum floral needlepoint tapestry (Center), Major Lewis Ginter's Richmond residence (Right), and 2015 Obergefell rainbow light in windows.",
+        z2: "Bargello flame-stitch wool embroidery & AIDS Memorial Quilt panels weave together across the circular medallion.",
+        z3: "Each of the 9 coffers becomes a stitched quilt & needlepoint tapestry panel held together by golden thread ribs."
+      },
+      {
+        num: "10",
+        title: "Beat 10: Truth-Telling & Reckoning — History Initiative & Monument Ave",
+        tc: "00:07:30 – 00:08:30",
+        dur: "60s (1,800f)",
+        startSec: 450,
+        img: "assets/beat_10_styleframe.jpg",
+        driveBoard: "https://drive.google.com/file/d/1l8RsKHKav6hG4FPTPNaUw25C9qndKCSY/view?usp=sharing",
+        driveAssets: "https://drive.google.com/drive/folders/14Y-nZGKTUy1e0TfCp7gGN4M2Ct5Cggva",
+        audio: "Cathartic Orchestral Strings ('Amazing Grace') + 'Afterlife' Dynamic Crescendo",
+        z1: "Kehinde Wiley's 'Rumors of War' (Left), 2020 Marcus-David Peters Circle illuminated projection reclamation (Center), and William Morris botanical wallpaper (Right) healing the walls.",
+        z2: "Baroque Millefleurs tapestry roundel & 2020 Monument Avenue reclamation imagery converge in a cathartic golden crescendo.",
+        z3: "William Morris Pink & Rose botanical tapestry & 2020 community reclamation fill the vault."
+      },
+      {
+        num: "11",
+        title: "Beat 11: Hope & Possibility — Kaleidoscope of Butterflies & Gold Mosaic",
+        tc: "00:08:30 – 00:09:15",
+        dur: "45s (1,350f)",
+        startSec: 510,
+        img: "assets/beat_11_styleframe.jpg",
+        driveBoard: "https://drive.google.com/file/d/18LFEdLkzeNhf7wU4z5U6TTe1FgVzXHUF/view?usp=sharing",
+        driveAssets: "https://drive.google.com/drive/folders/1APq8gcfKsFVyFPxnIKW2xeYAHtVOBpmz",
+        audio: "Tibetan Ritual Bell Harmonic Resonance + Shimmering Overtone Wash",
+        z1: "HERO MOSAIC MOMENT: The Tiffany 'Last Supper' mosaic (Backdrop_Mask_03) shimmers and releases thousands of Byzantine gold tesserae & Monarch/Tiger Swallowtail butterflies upward.",
+        z2: "Seguy Art Deco butterfly plates & Byzantine gold mosaic tesserae swirl in a luminous kaleidoscope across the dome.",
+        z3: "Constantinople gold mosaic tesserae & fluttering butterflies ascend through the 9 coffer skylights."
+      },
+      {
+        num: "12",
+        title: "Beat 12: Close — Floating Sky Lanterns, Singing Bowls & Sanctuary Peace",
+        tc: "00:09:15 – 00:10:00",
+        dur: "45s (1,350f)",
+        startSec: 555,
+        img: "assets/beat_12_styleframe.jpg",
+        driveBoard: "https://drive.google.com/file/d/1pnjYb2csbjWNHHcO4LH2oz6etB7gSp23/view?usp=sharing",
+        driveAssets: "https://drive.google.com/drive/folders/1APq8gcfKsFVyFPxnIKW2xeYAHtVOBpmz",
+        audio: "Tibetan Singing Bowl Meditation Harmonics + Quiet Night Crickets & Breeze",
+        z1: "Hundreds of warm Yi Peng floating sky lanterns & lotus lanterns drift gently upward off the sanctuary walls, leaving only warm candlelight on the Tiffany mosaic & columns.",
+        z2: "Floating lanterns converge toward the center gold triangle and slowly fade to a single warm sanctuary glow at 10:00.",
+        z3: "Lanterns drift across the 9 coffers; Top Beam inscription 'PEACE I LEAVE WITH YOU' glows softly as the show resolves to peace."
+      }
+    ];
+
+    const beatsContainer = document.getElementById("beats-container");
+    const trackerTbody = document.getElementById("tracker-tbody");
+
+    BEATS_DATA.forEach((b) => {
+      // Render Beat Card
+      const card = document.createElement("div");
+      card.className = "beat-card";
+      card.innerHTML = `
+        <div class="beat-card-header">
+          <h3>${b.title}</h3>
+          <span class="tc-tag">${b.tc} (${b.dur})</span>
+        </div>
+        <div class="beat-img-wrap" onclick="openLightbox('${b.img}', '${b.title.replace(/'/g, "\'")}')">
+          <img src="${b.img}" alt="${b.title}" loading="lazy" />
+        </div>
+        <div class="beat-card-body">
+          <p><strong>🎵 Audio Cue:</strong> ${b.audio}</p>
+          <p><strong>🏛️ Zone 1 (Backdrop):</strong> ${b.z1}</p>
+          <p><strong>☀️ Zone 2 (Medallion):</strong> ${b.z2}</p>
+          <p><strong>🏛️ Zone 3 (Far Vault):</strong> ${b.z3}</p>
+          <div class="btn-row">
+            <button class="btn btn-sm" onclick="seekBeat(${b.startSec}, '${b.title.replace(/'/g, "\'")}')">▶ Play Beat Audio (${b.tc.slice(3,8)})</button>
+            <a class="btn btn-sm" href="${b.driveBoard}" target="_blank" rel="noopener">🖼️ Full-Res Board (Drive)</a>
+            <a class="btn btn-gold btn-sm" href="${b.driveAssets}" target="_blank" rel="noopener">📂 Beat ${b.num} Assets (Drive)</a>
+          </div>
+        </div>
+      `;
+      beatsContainer.appendChild(card);
+
+      // Render Tracker Row
+      const tr = document.createElement("tr");
+      tr.innerHTML = `
+        <td><strong style="color:var(--gold-light);">${b.title.split("—")[0]}</strong></td>
+        <td class="mono">${b.tc}</td>
+        <td class="mono">${b.dur}</td>
+        <td>${b.z1}</td>
+        <td>${b.z2}</td>
+        <td>${b.z3}</td>
+        <td><a class="btn btn-sm" href="${b.driveAssets}" target="_blank" rel="noopener">📂 Assets</a></td>
+      `;
+      trackerTbody.appendChild(tr);
+    });
+
+    function seekBeat(sec, label) {
+      const audio = document.getElementById("master-audio");
+      const lbl = document.getElementById("now-playing-label");
+      audio.currentTime = sec;
+      audio.play();
+      lbl.textContent = "🔊 Playing: " + label;
+      document.getElementById("audio-timeline").scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+
+    function openLightbox(src, caption) {
+      document.getElementById("lightbox-img").src = src;
+      document.getElementById("lightbox-caption").textContent = caption || "";
+      document.getElementById("lightbox").classList.add("open");
+    }
+
+    function closeLightbox() {
+      document.getElementById("lightbox").classList.remove("open");
+    }
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") closeLightbox();
+    });
+  </script>
+</body>
+</html>
