@@ -565,6 +565,192 @@
 
   <main class="container">
 
+    <!-- HERO SECTION: FULL-ROOM SYNCHRONIZED SANCTUARY STAGE VISUALIZER (WITH STEREO AUDIO) -->
+    <section id="full-room-stage" style="margin-bottom: 56px;">
+      <div class="sec-header">
+        <div>
+          <span class="badge" style="margin-bottom:8px;display:inline-block;">✨ NEW: Complete Synchronized Multi-Surface Sanctuary Sections + Stereo Audio</span>
+          <h2>🏛️ Full-Room Synchronized Sanctuary Stage Visualizer (All Surfaces + Stereo Audio)</h2>
+          <p>See the entire St. Paul’s Sanctuary (`Zone 2 Overhead Medallion`, `Zone 3 Far Ceiling Vault & Beam`, `Zone 1 Full Chancel Wall`, and `3× 9:16 Vertical Slices`) evolving together for the <strong>exact same visual look</strong> in lockstep with the stereo musical audio stem.</p>
+        </div>
+        <div class="btn-row">
+          <button id="btn-look-sec01" class="btn btn-gold" onclick="switchFullRoomLook('SEC01')">🌟 Look 1: Beat 01 — Creation (Cosmic Genesis, 45s)</button>
+          <button id="btn-look-sec06" class="btn" onclick="switchFullRoomLook('SEC06')">🔺 Look 2: Beat 06 — Questioning (Sacred Geometry, 45s)</button>
+        </div>
+      </div>
+
+      <!-- Master Full-Room Composite Movie Player (With Stereo Audio Baked In) -->
+      <div style="background: var(--bg-card); border: 1px solid rgba(229, 184, 92, 0.45); border-radius: 14px; padding: 22px; margin-bottom: 26px; box-shadow: 0 14px 40px rgba(0,0,0,0.45);">
+        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; margin-bottom:14px;">
+          <div>
+            <h3 id="fr-master-title" style="color: var(--gold-light); font-size: 1.22rem; margin-bottom: 4px;">
+              🎬 Master 45-Second Full-Room Synchronized Section (With Stereo Audio): Beat 01 — Creation (00:00 – 00:45)
+            </h3>
+            <p id="fr-master-desc" style="color: var(--text-muted); font-size: 0.88rem;">
+              Single 1920×1080 architectural stage monitor movie combining Zone 2 Medallion, Zone 3 Far Vault, Zone 1 Full Chancel Wall, 3× 9:16 Slices, Unified Perspective &amp; 48kHz Stereo Audio.
+            </p>
+          </div>
+          <div class="btn-row">
+            <button class="btn btn-gold btn-sm" onclick="playMasterRoomVideoWithSound()">🔊 Play 45s Synced Room Movie (Unmute Audio)</button>
+            <a id="fr-master-download" class="btn btn-sm" href="assets/St_Pauls_Full_Room_Section_01_Creation_45s_Synced_with_Audio.mp4" download>⬇ Download 45s Full-Room Master MP4 (With Audio)</a>
+          </div>
+        </div>
+        <div style="background:#05070b; border-radius:10px; overflow:hidden; border:1px solid var(--border); aspect-ratio:16/9;">
+          <video id="fr-master-video" src="assets/St_Pauls_Full_Room_Section_01_Creation_45s_Synced_with_Audio.mp4" controls playsinline style="width:100%; height:100%; display:block; object-fit:contain;"></video>
+        </div>
+      </div>
+
+      <!-- Interactive Multi-Screen Sanctuary Spatial Grid (All 6 Individual Zone Loops Synced to Stereo Audio) -->
+      <div style="background: var(--bg-card); border: 1px solid var(--border); border-radius: 14px; padding: 22px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; margin-bottom:18px; padding-bottom:14px; border-bottom:1px solid var(--border);">
+          <div>
+            <h3 style="color:#fff; font-size:1.15rem; margin-bottom:4px;">🎛️ Live Multi-Screen Sanctuary Spatial Layout (All 6 Individual Zone Canvases Synced)</h3>
+            <p style="color:var(--text-muted); font-size:0.86rem;">All 6 individual <code>Veo 3.1</code> + <code>VV Loop Assembler</code> canvases (`96–97% PASS`) arranged in room perspective and locked to the section’s stereo audio stem.</p>
+          </div>
+          <div class="btn-row">
+            <button class="btn btn-gold btn-sm" onclick="syncPlayAllRoomZones(true)">▶ Play All 6 Room Screens + Stereo Audio</button>
+            <button class="btn btn-sm" onclick="syncPlayAllRoomZones(false)">⏸ Pause Room</button>
+          </div>
+        </div>
+
+        <audio id="fr-room-audio" src="assets/Beat_01_Creation_45s.mp3" loop preload="metadata" style="width:100%; height:38px; margin-bottom:18px;"></audio>
+
+        <!-- Row 1: Overhead Ceiling Surfaces (Zone 2 Medallion + Zone 3 Far Ceiling Vault) -->
+        <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(380px, 1fr)); gap:18px; margin-bottom:18px;">
+          <div style="background:#07090e; border:1px solid var(--border); border-radius:10px; padding:12px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+              <strong style="color:var(--gold-light); font-size:0.88rem;">OVERHEAD CEILING 1 — Zone 2: Center Medallion Dome (16:9)</strong>
+              <a id="dl-fr-z2" class="btn btn-sm" style="padding:4px 10px; font-size:0.76rem;" href="assets/SEC01_Creation_Z2_Center_Medallion_16x9_LOOP.mp4" download>⬇ MP4</a>
+            </div>
+            <video id="vid-fr-z2" class="fr-sync-vid" src="assets/SEC01_Creation_Z2_Center_Medallion_16x9_LOOP.mp4" autoplay loop muted playsinline controls style="width:100%; aspect-ratio:16/9; background:#000; border-radius:6px; display:block;"></video>
+          </div>
+
+          <div style="background:#07090e; border:1px solid var(--border); border-radius:10px; padding:12px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+              <strong style="color:var(--gold-light); font-size:0.88rem;">OVERHEAD CEILING 2 — Zone 3: Far Ceiling Chancel Vault &amp; Beam (16:9)</strong>
+              <a id="dl-fr-z3" class="btn btn-sm" style="padding:4px 10px; font-size:0.76rem;" href="assets/SEC01_Creation_Z3_Far_Ceiling_Vault_16x9_LOOP.mp4" download>⬇ MP4</a>
+            </div>
+            <video id="vid-fr-z3" class="fr-sync-vid" src="assets/SEC01_Creation_Z3_Far_Ceiling_Vault_16x9_LOOP.mp4" autoplay loop muted playsinline controls style="width:100%; aspect-ratio:16/9; background:#000; border-radius:6px; display:block;"></video>
+          </div>
+        </div>
+
+        <!-- Row 2: Chancel Wall Master (16:9) + 3x Synchronized 9:16 Vertical Slices -->
+        <div style="display:grid; grid-template-columns: 1.35fr 1fr; gap:18px; align-items:stretch;">
+          <div style="background:#07090e; border:1px solid var(--border); border-radius:10px; padding:12px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+              <strong style="color:var(--gold-light); font-size:0.88rem;">FRONT SANCTUARY WALL — Zone 1: Full Chancel Backdrop (3240×1920 Master)</strong>
+              <a id="dl-fr-z1" class="btn btn-sm" style="padding:4px 10px; font-size:0.76rem;" href="assets/SEC01_Creation_Z1_Chancel_Backdrop_16x9_LOOP.mp4" download>⬇ MP4</a>
+            </div>
+            <video id="vid-fr-z1" class="fr-sync-vid" src="assets/SEC01_Creation_Z1_Chancel_Backdrop_16x9_LOOP.mp4" autoplay loop muted playsinline controls style="width:100%; aspect-ratio:16/9; background:#000; border-radius:6px; display:block;"></video>
+          </div>
+
+          <div style="background:#07090e; border:1px solid var(--border); border-radius:10px; padding:12px; display:flex; flex-direction:column; justify-content:space-between;">
+            <div style="margin-bottom:8px;">
+              <strong style="color:var(--gold-light); font-size:0.88rem;">3× SYNCHRONIZED 9:16 VERTICAL SLICES (1080×1920 Each)</strong>
+            </div>
+            <div style="display:grid; grid-template-columns: repeat(3, 1fr); gap:8px;">
+              <div style="text-align:center;">
+                <video id="vid-fr-z1a" class="fr-sync-vid" src="assets/SEC01_Creation_Z1A_Left_Slice_9x16_LOOP.mp4" autoplay loop muted playsinline style="width:100%; aspect-ratio:9/16; background:#000; border-radius:6px; border:1px solid var(--border);"></video>
+                <a id="dl-fr-z1a" href="assets/SEC01_Creation_Z1A_Left_Slice_9x16_LOOP.mp4" download style="font-size:0.73rem; color:var(--gold-light); text-decoration:none; display:block; margin-top:4px;">⬇ Left (9:16)</a>
+              </div>
+              <div style="text-align:center;">
+                <video id="vid-fr-z1b" class="fr-sync-vid" src="assets/SEC01_Creation_Z1B_Center_Slice_9x16_LOOP.mp4" autoplay loop muted playsinline style="width:100%; aspect-ratio:9/16; background:#000; border-radius:6px; border:1px solid var(--gold);"></video>
+                <a id="dl-fr-z1b" href="assets/SEC01_Creation_Z1B_Center_Slice_9x16_LOOP.mp4" download style="font-size:0.73rem; color:var(--gold-light); text-decoration:none; display:block; margin-top:4px;">⬇ Center (9:16)</a>
+              </div>
+              <div style="text-align:center;">
+                <video id="vid-fr-z1c" class="fr-sync-vid" src="assets/SEC01_Creation_Z1C_Right_Slice_9x16_LOOP.mp4" autoplay loop muted playsinline style="width:100%; aspect-ratio:9/16; background:#000; border-radius:6px; border:1px solid var(--border);"></video>
+                <a id="dl-fr-z1c" href="assets/SEC01_Creation_Z1C_Right_Slice_9x16_LOOP.mp4" download style="font-size:0.73rem; color:var(--gold-light); text-decoration:none; display:block; margin-top:4px;">⬇ Right (9:16)</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      const FULL_ROOM_LOOKS = {
+        SEC01: {
+          title: "🎬 Master 45-Second Full-Room Synchronized Section (With Stereo Audio): Beat 01 — Creation (00:00 – 00:45)",
+          desc: "Single 1920×1080 architectural stage monitor movie combining Zone 2 Medallion, Zone 3 Far Vault, Zone 1 Full Chancel Wall, 3× 9:16 Slices, Unified Perspective & 48kHz Stereo Audio (Stage I First Golden Spark → Stage II Carina Nebula → Stage III 20-Spoke Astrolabe → Stage IV Starlight Sanctuary).",
+          masterMp4: "assets/St_Pauls_Full_Room_Section_01_Creation_45s_Synced_with_Audio.mp4",
+          audioMp3: "assets/Beat_01_Creation_45s.mp3",
+          z2: "assets/SEC01_Creation_Z2_Center_Medallion_16x9_LOOP.mp4",
+          z3: "assets/SEC01_Creation_Z3_Far_Ceiling_Vault_16x9_LOOP.mp4",
+          z1: "assets/SEC01_Creation_Z1_Chancel_Backdrop_16x9_LOOP.mp4",
+          z1a: "assets/SEC01_Creation_Z1A_Left_Slice_9x16_LOOP.mp4",
+          z1b: "assets/SEC01_Creation_Z1B_Center_Slice_9x16_LOOP.mp4",
+          z1c: "assets/SEC01_Creation_Z1C_Right_Slice_9x16_LOOP.mp4"
+        },
+        SEC06: {
+          title: "🎬 Master 45-Second Full-Room Synchronized Section (With Stereo Audio): Beat 06 — Questioning (04:15 – 05:00)",
+          desc: "Sacred Tetragrammaton Triangle, Prismatic Sapphire/Violet Chiaroscuro & Cathedral Light Shafts evolving simultaneously across Zone 2 Medallion, Zone 3 Far Ceiling Vault, and Zone 1 Chancel Wall with Stereo Audio.",
+          masterMp4: "assets/St_Pauls_Full_Room_Section_06_Questioning_45s_Synced_with_Audio.mp4",
+          audioMp3: "assets/Beat_06_Questioning_Tetragrammaton_45s.mp3",
+          z2: "assets/SEC06_Questioning_Z2_Center_Medallion_16x9_LOOP.mp4",
+          z3: "assets/SEC06_Questioning_Z3_Far_Ceiling_Vault_16x9_LOOP.mp4",
+          z1: "assets/SEC06_Questioning_Z1_Chancel_Backdrop_16x9_LOOP.mp4",
+          z1a: "assets/SEC06_Questioning_Z1A_Left_Slice_9x16_LOOP.mp4",
+          z1b: "assets/SEC06_Questioning_Z1B_Center_Slice_9x16_LOOP.mp4",
+          z1c: "assets/SEC06_Questioning_Z1C_Right_Slice_9x16_LOOP.mp4"
+        }
+      };
+
+      function switchFullRoomLook(key) {
+        const cfg = FULL_ROOM_LOOKS[key];
+        if (!cfg) return;
+        document.getElementById('btn-look-sec01').className = key === 'SEC01' ? 'btn btn-gold' : 'btn';
+        document.getElementById('btn-look-sec06').className = key === 'SEC06' ? 'btn btn-gold' : 'btn';
+        document.getElementById('fr-master-title').textContent = cfg.title;
+        document.getElementById('fr-master-desc').textContent = cfg.desc;
+        const mVid = document.getElementById('fr-master-video');
+        mVid.src = cfg.masterMp4;
+        document.getElementById('fr-master-download').href = cfg.masterMp4;
+
+        const rAud = document.getElementById('fr-room-audio');
+        rAud.src = cfg.audioMp3;
+
+        const map = [
+          ['vid-fr-z2', 'dl-fr-z2', cfg.z2],
+          ['vid-fr-z3', 'dl-fr-z3', cfg.z3],
+          ['vid-fr-z1', 'dl-fr-z1', cfg.z1],
+          ['vid-fr-z1a', 'dl-fr-z1a', cfg.z1a],
+          ['vid-fr-z1b', 'dl-fr-z1b', cfg.z1b],
+          ['vid-fr-z1c', 'dl-fr-z1c', cfg.z1c]
+        ];
+        for (const [vId, aId, src] of map) {
+          const v = document.getElementById(vId);
+          v.src = src;
+          v.currentTime = 0;
+          v.play().catch(() => {});
+          document.getElementById(aId).href = src;
+        }
+      }
+
+      function playMasterRoomVideoWithSound() {
+        const rAud = document.getElementById('fr-room-audio');
+        if (rAud) rAud.pause();
+        const mVid = document.getElementById('fr-master-video');
+        mVid.muted = false;
+        mVid.currentTime = 0;
+        mVid.play();
+      }
+
+      function syncPlayAllRoomZones(play) {
+        const mVid = document.getElementById('fr-master-video');
+        if (mVid) mVid.pause();
+        const vids = document.querySelectorAll('.fr-sync-vid');
+        const rAud = document.getElementById('fr-room-audio');
+        if (play) {
+          vids.forEach(v => { v.currentTime = 0; v.play().catch(() => {}); });
+          if (rAud) { rAud.currentTime = 0; rAud.play().catch(() => {}); }
+        } else {
+          vids.forEach(v => v.pause());
+          if (rAud) rAud.pause();
+        }
+      }
+    </script>
+
+
     <!-- SECTION 0: ASSEMBLED GEOMETRY-LOCKED MOTION LOOPS -->
     <section id="assembled-loops">
       <div class="sec-header">
