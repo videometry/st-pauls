@@ -1,0 +1,253 @@
+{
+  "title": "Edition V: Constructing the Universe \u2014 A 1-to-10 Sacred Geometry, Natural Forms & Harmonic Journey Through St. Paul's",
+  "inspiration": "Michael S. Schneider, A Beginner's Guide to Constructing the Universe (Numbers 1 Monad through 10 Decad)",
+  "duration_sec": 300.0,
+  "fps": 24,
+  "total_frames": 7200,
+  "sample_rate_hz": 48000,
+  "total_stereo_samples": 14400000,
+  "fundamental_tuning_hz": {
+    "D2": 73.4161918,
+    "D3": 146.8323836,
+    "D4": 293.6647672,
+    "D5": 587.3295344,
+    "temperament": "Pure Just Intonation"
+  },
+  "coherent_breath_half_cycle_sec": 4.0,
+  "total_action_sync_events": 615,
+  "action_event_breakdown": {
+    "sub_pedal": 70,
+    "glass_pad": 138,
+    "quartz_bowl": 11,
+    "vertex_lock": 37,
+    "compass_arc": 17,
+    "felt_piano": 41,
+    "straightedge_ray": 29,
+    "tibetan_bell": 10,
+    "concert_harp": 176,
+    "harmonic_pluck": 12,
+    "phyllotaxis_seed": 55,
+    "coffer_step": 9,
+    "tetractys_pearl": 10
+  },
+  "chiaroscuro_specimen_plates_count": 24,
+  "acts_5x60s": [
+    {
+      "act": 1,
+      "slug": "ACT1_Monad_and_Dyad_Birth_of_Space_60s",
+      "short_title": "Act I: Monad & Dyad \u2014 Birth of Space, Wave & Gothic Arch (00:00-01:00)",
+      "hud_title": "ACT I (00:00-01:00): I. MONAD (360 COMPASS / SINE / PI) & II. DYAD (GOTHIC ARCH VESICA / ROOT-2 / MITOSIS)",
+      "t_start": 0.0
+    },
+    {
+      "act": 2,
+      "slug": "ACT2_Triad_and_Tetrad_Structure_and_Volume_60s",
+      "short_title": "Act II: Triad & Tetrad \u2014 Structural Harmony & 3D Volume (01:00-02:00)",
+      "hud_title": "ACT II (01:00-02:00): III. TRIAD (TRIANGLE / KEYSTONE ARCH / 120 Y) & IV. TETRAD (3D PLATONICS / FLUORITE)",
+      "t_start": 60.0
+    },
+    {
+      "act": 3,
+      "slug": "ACT3_Pentad_and_Hexad_Life_and_Crystal_Order_60s",
+      "short_title": "Act III: Pentad & Hexad \u2014 Golden Ratio Life & Hexagonal Order (02:00-03:00)",
+      "hud_title": "ACT III (02:00-03:00): V. PENTAD (PHI / 55-SEED PHYLLOTAXIS / APPLE) & VI. HEXAD (SEED OF LIFE / HONEYCOMB)",
+      "t_start": 120.0
+    },
+    {
+      "act": 4,
+      "slug": "ACT4_Heptad_and_Octad_Spectrum_and_Octave_60s",
+      "short_title": "Act IV: Heptad & Octad \u2014 7-Fold Rainbow & 2:1 Octave Renewal (03:00-04:00)",
+      "hud_title": "ACT IV (03:00-04:00): VII. HEPTAD (1f..7f MONOCHORD / PRISM RAINBOW) & VIII. OCTAD (2:1 CHLADNI / BREATH LOOM)",
+      "t_start": 180.0
+    },
+    {
+      "act": 5,
+      "slug": "ACT5_Ennead_and_Decad_Horizon_and_Tetractys_60s",
+      "short_title": "Act V: Ennead & Decad \u2014 Sri Yantra, Tetractys, DNA & Return (04:00-05:00)",
+      "hud_title": "ACT V (04:00-05:00): IX. ENNEAD (9-COFFER LO SHU / SRI YANTRA) & X. DECAD (TETRACTYS / DNA -> 1:1 SEED RETURN)",
+      "t_start": 240.0
+    }
+  ],
+  "chapters_10x30s": [
+    {
+      "num": 1,
+      "code": "S01",
+      "act": 1,
+      "t0": 0.0,
+      "t1": 30.0,
+      "archetype": "MONAD",
+      "principle": "Wholly One \u00b7 Source & Center",
+      "ratio": "1:1",
+      "ratio_code": 1,
+      "chords": [
+        "Dmaj9",
+        "Dmaj9"
+      ],
+      "beat_a": "0D Seed Point -> Golden Compass 360 deg First Circle Sweep",
+      "beat_b": "Circle-to-Sine Simple Harmonic Motion (y=R sin wt) & Rolling Pi = 3.14159",
+      "beat_c": "Chiaroscuro Water Droplet Ripples & Ancient Cedar Annual Tree Rings"
+    },
+    {
+      "num": 2,
+      "code": "S02",
+      "act": 1,
+      "t0": 30.0,
+      "t1": 60.0,
+      "archetype": "DYAD",
+      "principle": "Polarity \u00b7 Vesica Piscis & Gothic Arch",
+      "ratio": "2:1",
+      "ratio_code": 2,
+      "chords": [
+        "Dmaj9",
+        "Asus9"
+      ],
+      "beat_a": "Self-Division of One -> Compass Construction of St. Paul's 3 Gothic Lancet Arches",
+      "beat_b": "Root-2 Square Diagonal Swing (1.4142) & Twin-Source Wave Interference Hyperbolas",
+      "beat_c": "Chiaroscuro Dividing Cell Mitosis & Two-Circle Birth of Jade Yin-Yang"
+    },
+    {
+      "num": 3,
+      "code": "S03",
+      "act": 2,
+      "t0": 60.0,
+      "t1": 90.0,
+      "archetype": "TRIAD",
+      "principle": "Three-Part Harmony \u00b7 Structural Rigidity",
+      "ratio": "3:2",
+      "ratio_code": 3,
+      "chords": [
+        "Gmaj9",
+        "Dmaj9"
+      ],
+      "beat_a": "Vesica Chords Draft First Polygon (Equilateral Triangle, Root-3 & Z2 Dome Triangle)",
+      "beat_b": "Shearing Square Braced by Triangle + Keystone Force Vectors & 120 deg Steiner Y-Film",
+      "beat_c": "Chiaroscuro 120 deg River Y-Confluence, Silica Radiolaria & Celtic Triquetra"
+    },
+    {
+      "num": 4,
+      "code": "S04",
+      "act": 2,
+      "t0": 90.0,
+      "t1": 120.0,
+      "archetype": "TETRAD",
+      "principle": "Mother Substance \u00b7 Three-Dimensional Space",
+      "ratio": "4:3",
+      "ratio_code": 4,
+      "chords": [
+        "Em9",
+        "Gmaj9"
+      ],
+      "beat_a": "0D->1D->2D->3D Ignition Across St. Paul's 4 Columns & Euclid's Weave of the Goddess",
+      "beat_b": "Rotating 3D Tetrahedron (109.47 deg Valence Bond), Cube & Nested Octahedron",
+      "beat_c": "Chiaroscuro Octahedral Fluorite Crystal, 4-Gate Kalachakra & 4-Directions Wheel"
+    },
+    {
+      "num": 5,
+      "code": "S05",
+      "act": 3,
+      "t0": 120.0,
+      "t1": 150.0,
+      "archetype": "PENTAD",
+      "principle": "Living Regeneration \u00b7 The Golden Ratio Phi",
+      "ratio": "1:Phi",
+      "ratio_code": 5,
+      "chords": [
+        "Dmaj9",
+        "Bm11"
+      ],
+      "beat_a": "1x2 Double-Square Root-5 Compass Swing -> Phi (1.618) & Fractal Lute of Pythagoras",
+      "beat_b": "55-Seed Note-Timed 137.508 deg Phyllotaxis Spiral Bloom & 8:13 Rose of Venus",
+      "beat_c": "Chiaroscuro Apple 5-Seed Pentagram, Wild Rose, Sunflower & Pearlescent Nautilus"
+    },
+    {
+      "num": 6,
+      "code": "S06",
+      "act": 3,
+      "t0": 150.0,
+      "t1": 180.0,
+      "archetype": "HEXAD",
+      "principle": "Structure \u00b7 Function \u00b7 Crystalline Order",
+      "ratio": "5:3",
+      "ratio_code": 6,
+      "chords": [
+        "Gmaj9",
+        "Dmaj9"
+      ],
+      "beat_a": "Circle-by-Circle 6-Around-1 Seed of Life (6x60=360 deg) & 3-4-5 Temple Triangle",
+      "beat_b": "Dynamic Surface-Tension Compression: Kissing Circles -> 120 deg Hexagonal Honeycomb",
+      "beat_c": "Chiaroscuro 6-Around-1 Soap Bubbles, Ice-Quartz Snowflake, Basalt & Star of David"
+    },
+    {
+      "num": 7,
+      "code": "S07",
+      "act": 4,
+      "t0": 180.0,
+      "t1": 210.0,
+      "archetype": "HEPTAD",
+      "principle": "The Musical Scale & 7-Color Optical Spectrum",
+      "ratio": "7-Tone",
+      "ratio_code": 7,
+      "chords": [
+        "F#m7",
+        "Gmaj9"
+      ],
+      "beat_a": "51.428 deg Irreducible Gap & Live Drafting of {7/2} + {7/3} Web of Athena Heptagrams",
+      "beat_b": "Monochord Modes 1f..7f Plucks + 42 deg Crystal Prism Rainbow Across Waterfall Arches",
+      "beat_c": "Chiaroscuro Newton Dual-Prism Spectrum, 7-Branched Golden Menorah & Waterfall Mist"
+    },
+    {
+      "num": 8,
+      "code": "S08",
+      "act": 4,
+      "t0": 210.0,
+      "t1": 240.0,
+      "archetype": "OCTAD",
+      "principle": "Periodic Renewal \u00b7 Sympathetic 2:1 Octave",
+      "ratio": "2:1",
+      "ratio_code": 8,
+      "chords": [
+        "Asus9",
+        "Dmaj9"
+      ],
+      "beat_a": "7->8 Sympathetic Octave Resonance, 45 deg Rotated {8/2} Octagram & Squared Circle",
+      "beat_b": "8-Fold Chladni Nodal Plate & Breathing Islamic Breath of the Compassionate Loom",
+      "beat_c": "Chiaroscuro 8-Fold Chladni Sand Plate, Islamic Ceramic Mosaic, Dharmachakra & Bagua"
+    },
+    {
+      "num": 9,
+      "code": "S09",
+      "act": 5,
+      "t0": 240.0,
+      "t1": 270.0,
+      "archetype": "ENNEAD",
+      "principle": "The Horizon \u00b7 3x3 Completion & Sri Yantra",
+      "ratio": "9:8",
+      "ratio_code": 9,
+      "chords": [
+        "Bm11",
+        "Asus9"
+      ],
+      "beat_a": "3x3 Nonagon, Baha'i 9-Star & Z3 9-Coffer Lo Shu Magic Square Sequence (Sum = 15)",
+      "beat_b": "Live Triple-Concurrent 9-Triangle Sri Yantra (43 Triangles) & 9-Turn Cretan Labyrinth",
+      "beat_c": "Chiaroscuro Hammered-Gold Sri Yantra, Stone Labyrinth, Bronze Lo Shu & 9-Triplet Ring"
+    },
+    {
+      "num": 10,
+      "code": "S10",
+      "act": 5,
+      "t0": 270.0,
+      "t1": 300.0,
+      "archetype": "DECAD",
+      "principle": "Beyond Number \u00b7 Tetractys (1+2+3+4=10 -> 1)",
+      "ratio": "10:1",
+      "ratio_code": 10,
+      "chords": [
+        "Gmaj9",
+        "Dmaj9"
+      ],
+      "beat_a": "Pythagorean Tetractys (1+2+3+4=10 Pearls on 1:2:3:4 Chord) & 10-Sephirot Tree of Life",
+      "beat_b": "3D B-DNA Double Helix (10 Rungs/Turn) Rotating 90 deg into {10/3} Decagram & Passionflower",
+      "beat_c": "Harmonia Mundi 10->1 Cathedral Synthesis, Tiffany Mosaic & Ouroboros Return to Seed"
+    }
+  ]
+}

@@ -1,0 +1,616 @@
+event_id,chapter_num,act_num,t_sec,dur_sec,action_type,zone,elem_idx,freq_hz,freq_end_hz,midi_note,ratio_str,velocity,pan,label
+1,1,1,0.0,4.35,sub_pedal,Z1,0,73.4162,73.4162,38,1:1,0.3895,0.5,S01 Sub-Pedal Breath
+2,1,1,0.06,4.1,glass_pad,Z1,0,146.8324,146.8324,50,1:1,0.2854,0.34,S01 Glass Breath L
+3,1,1,0.08,7.6,quartz_bowl,ALL,0,293.6648,293.6648,62,1:1,0.44,0.5,S01 MONAD Arrival Bowl (1:1)
+4,1,1,0.12,4.1,glass_pad,Z1,2,293.6648,293.6648,62,1:1,0.2613,0.66,S01 Glass Breath R
+5,1,1,1.2,1.8,vertex_lock,ALL,0,587.3295,587.3295,74,1:1,0.52,0.5,S01 0D Origin Seed Ignition & Compass Pivot Plant
+6,1,1,2.4,6.4,compass_arc,Z2,0,293.6648,587.3295,74,1:1->2:1,0.58,0.5,S01 360-Deg First Circle Compass Sweep
+7,1,1,4.0,4.35,sub_pedal,Z1,1,73.4162,73.4162,38,1:1,0.4,0.5,S01 Sub-Pedal Breath
+8,1,1,4.06,4.1,glass_pad,Z1,0,220.2486,220.2486,57,1:1,0.295,0.34,S01 Glass Breath L
+9,1,1,4.12,4.1,glass_pad,Z1,2,367.081,367.081,66,1:1,0.27,0.66,S01 Glass Breath R
+10,1,1,4.45,3.1,felt_piano,Z1,1,293.6648,293.6648,62,1:1,0.315,0.4,S01 Felt Piano Contemplation
+11,1,1,4.95,2.9,felt_piano,Z1,1,440.4972,440.4972,69,1:1,0.285,0.6,S01 Felt Piano Answer
+12,1,1,8.0,4.35,sub_pedal,Z1,2,73.4162,73.4162,38,1:1,0.4114,0.5,S01 Sub-Pedal Breath
+13,1,1,8.06,4.1,glass_pad,Z1,0,146.8324,146.8324,50,1:1,0.3054,0.34,S01 Glass Breath L
+14,1,1,8.12,4.1,glass_pad,Z1,2,293.6648,293.6648,62,1:1,0.2795,0.66,S01 Glass Breath R
+15,1,1,8.8,3.2,vertex_lock,ALL,0,587.3295,587.3295,74,1:1,0.64,0.5,S01 360-Deg Circle Closure Lock Chime
+16,1,1,10.2,4.2,straightedge_ray,Z1,1,293.6648,440.4972,69,1:1,0.48,0.45,S01 Circle-to-Sine Wave Unrolling Ray
+17,1,1,12.0,4.35,sub_pedal,Z1,3,73.4162,73.4162,38,1:1,0.4212,0.5,S01 Sub-Pedal Breath
+18,1,1,12.06,4.1,glass_pad,Z1,0,220.2486,220.2486,57,1:1,0.3145,0.34,S01 Glass Breath L
+19,1,1,12.12,4.1,glass_pad,Z1,2,367.081,367.081,66,1:1,0.2877,0.66,S01 Glass Breath R
+20,1,1,12.45,3.1,felt_piano,Z1,1,293.6648,293.6648,62,1:1,0.3274,0.4,S01 Felt Piano Contemplation
+21,1,1,12.95,2.9,felt_piano,Z1,1,440.4972,440.4972,69,1:1,0.2974,0.6,S01 Felt Piano Answer
+22,1,1,15.0,2.1,vertex_lock,Z3,0,293.6648,293.6648,62,pi,0.54,0.28,S01 Rolling Pi: 1d Diameter Mark
+23,1,1,16.0,6.8,tibetan_bell,Z2,2,293.6648,293.6648,62,1:1,0.44,0.48,S01 MONAD Natural Culmination Bowl
+24,1,1,16.0,4.35,sub_pedal,Z1,0,73.4162,73.4162,38,1:1,0.4286,0.5,S01 Sub-Pedal Breath
+25,1,1,16.06,4.1,glass_pad,Z1,0,146.8324,146.8324,50,1:1,0.3212,0.34,S01 Glass Breath L
+26,1,1,16.12,4.1,glass_pad,Z1,2,293.6648,293.6648,62,1:1,0.2938,0.66,S01 Glass Breath R
+27,1,1,16.25,2.1,vertex_lock,Z3,1,330.3729,330.3729,64,pi,0.54,0.43,S01 Rolling Pi: 2d Diameter Mark
+28,1,1,17.5,2.1,vertex_lock,Z3,2,367.081,367.081,66,pi,0.54,0.58,S01 Rolling Pi: 3d Diameter Mark
+29,1,1,18.75,2.1,vertex_lock,Z3,3,440.4972,440.4972,69,pi,0.54,0.73,S01 Rolling Pi: Pi = 3.14159... Irrational Lock!
+30,1,1,20.0,4.35,sub_pedal,Z1,1,73.4162,73.4162,38,1:1,0.4327,0.5,S01 Sub-Pedal Breath
+31,1,1,20.06,4.1,glass_pad,Z1,0,220.2486,220.2486,57,1:1,0.325,0.34,S01 Glass Breath L
+32,1,1,20.12,4.1,glass_pad,Z1,2,367.081,367.081,66,1:1,0.2973,0.66,S01 Glass Breath R
+33,1,1,20.14,2.35,concert_harp,Z2,2,440.4972,440.4972,69,1:1,0.3895,0.22,S01 Beat-C Nature Harp Bloom #1
+34,1,1,20.74,2.35,concert_harp,Z2,3,367.081,367.081,66,1:1,0.3895,0.332,S01 Beat-C Nature Harp Bloom #2
+35,1,1,21.34,2.35,concert_harp,Z2,4,330.3729,330.3729,64,1:1,0.3895,0.444,S01 Beat-C Nature Harp Bloom #3
+36,1,1,21.94,2.35,concert_harp,Z2,5,293.6648,293.6648,62,1:1,0.3895,0.556,S01 Beat-C Nature Harp Bloom #4
+37,1,1,22.54,2.35,concert_harp,Z2,6,220.2486,220.2486,57,1:1,0.3895,0.668,S01 Beat-C Nature Harp Bloom #5
+38,1,1,23.14,2.35,concert_harp,Z2,7,146.8324,146.8324,50,1:1,0.3895,0.78,S01 Beat-C Nature Harp Bloom #6
+39,1,1,24.0,4.35,sub_pedal,Z1,2,73.4162,73.4162,38,1:1,0.4336,0.5,S01 Sub-Pedal Breath
+40,1,1,24.06,4.1,glass_pad,Z1,0,146.8324,146.8324,50,1:1,0.3258,0.34,S01 Glass Breath L
+41,1,1,24.12,4.1,glass_pad,Z1,2,293.6648,293.6648,62,1:1,0.298,0.66,S01 Glass Breath R
+42,1,1,24.14,2.35,concert_harp,Z2,2,146.8324,146.8324,50,1:1,0.3902,0.22,S01 Beat-C Nature Harp Bloom #1
+43,1,1,24.74,2.35,concert_harp,Z2,3,220.2486,220.2486,57,1:1,0.3902,0.332,S01 Beat-C Nature Harp Bloom #2
+44,1,1,25.34,2.35,concert_harp,Z2,4,293.6648,293.6648,62,1:1,0.3902,0.444,S01 Beat-C Nature Harp Bloom #3
+45,1,1,25.94,2.35,concert_harp,Z2,5,330.3729,330.3729,64,1:1,0.3902,0.556,S01 Beat-C Nature Harp Bloom #4
+46,1,1,26.54,2.35,concert_harp,Z2,6,367.081,367.081,66,1:1,0.3902,0.668,S01 Beat-C Nature Harp Bloom #5
+47,1,1,27.14,2.35,concert_harp,Z2,7,440.4972,440.4972,69,1:1,0.3902,0.78,S01 Beat-C Nature Harp Bloom #6
+48,2,1,30.0,4.35,sub_pedal,Z1,0,73.4162,73.4162,38,2:1,0.4346,0.5,S02 Sub-Pedal Breath
+49,2,1,30.06,4.1,glass_pad,Z1,0,146.8324,146.8324,50,2:1,0.3268,0.34,S02 Glass Breath L
+50,2,1,30.08,7.6,tibetan_bell,ALL,0,293.6648,293.6648,62,2:1,0.52,0.5,S02 DYAD Arrival Bowl (2:1)
+51,2,1,30.12,4.1,glass_pad,Z1,2,293.6648,293.6648,62,2:1,0.2989,0.66,S02 Glass Breath R
+52,2,1,30.8,2.2,straightedge_ray,ALL,0,293.6648,587.3295,74,1:2,0.52,0.5,S02 Self-Division of Monad O1 <-> O2
+53,2,1,32.6,2.7,compass_arc,Z1,0,293.6648,440.4972,69,2:3,0.58,0.3,S02 Left Gothic Arch Extrados Compass Sweep (Win 1-3)
+54,2,1,34.0,4.35,sub_pedal,Z1,1,73.4162,73.4162,38,2:1,0.4434,0.5,S02 Sub-Pedal Breath
+55,2,1,34.06,4.1,glass_pad,Z1,0,220.2486,220.2486,57,2:1,0.3348,0.34,S02 Glass Breath L
+56,2,1,34.12,4.1,glass_pad,Z1,2,367.081,367.081,66,2:1,0.3061,0.66,S02 Glass Breath R
+57,2,1,34.45,3.1,felt_piano,Z1,1,293.6648,293.6648,62,2:1,0.3403,0.4,S02 Felt Piano Contemplation
+58,2,1,34.95,2.9,felt_piano,Z1,1,440.4972,440.4972,69,2:1,0.3103,0.6,S02 Felt Piano Answer
+59,2,1,35.4,2.7,compass_arc,Z1,2,440.4972,587.3295,74,2:1,0.6,0.7,S02 Right Gothic Arch Extrados Compass Sweep (Vesica Piscis!)
+60,2,1,38.0,4.35,sub_pedal,Z1,2,73.4162,73.4162,38,2:1,0.4554,0.5,S02 Sub-Pedal Breath
+61,2,1,38.06,4.1,glass_pad,Z1,0,146.8324,146.8324,50,2:1,0.3458,0.34,S02 Glass Breath L
+62,2,1,38.12,4.1,glass_pad,Z1,2,293.6648,293.6648,62,2:1,0.3162,0.66,S02 Glass Breath R
+63,2,1,38.15,2.8,vertex_lock,Z1,1,587.3295,587.3295,74,2:1,0.68,0.5,S02 Gothic Pointed Arch Apex & 90-Deg Radical Axis Lock!
+64,2,1,41.2,2.2,straightedge_ray,Z1,1,293.6648,415.3047,68,1:sqrt2,0.5,0.42,S02 Unit-Square Root-2 Diagonal Strike
+65,2,1,42.0,4.35,sub_pedal,Z1,3,73.4162,73.4162,38,2:1,0.4653,0.5,S02 Sub-Pedal Breath
+66,2,1,42.06,4.1,glass_pad,Z1,0,220.2486,220.2486,57,2:1,0.3548,0.34,S02 Glass Breath L
+67,2,1,42.12,4.1,glass_pad,Z1,2,367.081,367.081,66,2:1,0.3244,0.66,S02 Glass Breath R
+68,2,1,42.45,3.1,felt_piano,Z1,1,293.6648,293.6648,62,2:1,0.3531,0.4,S02 Felt Piano Contemplation
+69,2,1,42.95,2.9,felt_piano,Z1,1,440.4972,440.4972,69,2:1,0.3231,0.6,S02 Felt Piano Answer
+70,2,1,43.6,2.6,compass_arc,Z1,1,415.3047,440.4972,69,sqrt2->3:2,0.54,0.58,S02 Root-2 Baseline Compass Arc Swing
+71,2,1,46.0,6.8,quartz_bowl,Z2,4,440.4972,440.4972,69,2:1,0.44,0.48,S02 DYAD Natural Culmination Bowl
+72,2,1,46.0,4.35,sub_pedal,Z1,0,55.0621,55.0621,33,2:1,0.4714,0.5,S02 Sub-Pedal Breath
+73,2,1,46.06,4.1,glass_pad,Z1,0,110.1243,110.1243,45,2:1,0.3604,0.34,S02 Glass Breath L
+74,2,1,46.12,4.1,glass_pad,Z1,2,293.6648,293.6648,62,2:1,0.3295,0.66,S02 Glass Breath R
+75,2,1,46.25,2.4,vertex_lock,Z3,1,440.4972,440.4972,69,sqrt2,0.58,0.5,S02 Root-2 Rectangle Lock & Wave Interference Crest
+76,2,1,50.0,4.35,sub_pedal,Z1,1,55.0621,55.0621,33,2:1,0.4731,0.5,S02 Sub-Pedal Breath
+77,2,1,50.06,4.1,glass_pad,Z1,0,165.1864,165.1864,52,2:1,0.362,0.34,S02 Glass Breath L
+78,2,1,50.12,4.1,glass_pad,Z1,2,440.4972,440.4972,69,2:1,0.3309,0.66,S02 Glass Breath R
+79,2,1,50.14,2.35,concert_harp,Z2,4,330.3729,330.3729,64,2:1,0.4198,0.22,S02 Beat-C Nature Harp Bloom #1
+80,2,1,50.74,2.35,concert_harp,Z2,5,293.6648,293.6648,62,2:1,0.4198,0.332,S02 Beat-C Nature Harp Bloom #2
+81,2,1,51.34,2.35,concert_harp,Z2,6,244.7206,244.7206,59,2:1,0.4198,0.444,S02 Beat-C Nature Harp Bloom #3
+82,2,1,51.94,2.35,concert_harp,Z2,7,220.2486,220.2486,57,2:1,0.4198,0.556,S02 Beat-C Nature Harp Bloom #4
+83,2,1,52.54,2.35,concert_harp,Z2,8,165.1864,165.1864,52,2:1,0.4198,0.668,S02 Beat-C Nature Harp Bloom #5
+84,2,1,53.14,2.35,concert_harp,Z2,9,110.1243,110.1243,45,2:1,0.4198,0.78,S02 Beat-C Nature Harp Bloom #6
+85,2,1,54.0,4.35,sub_pedal,Z1,2,55.0621,55.0621,33,2:1,0.4706,0.5,S02 Sub-Pedal Breath
+86,2,1,54.06,4.1,glass_pad,Z1,0,110.1243,110.1243,45,2:1,0.3597,0.34,S02 Glass Breath L
+87,2,1,54.12,4.1,glass_pad,Z1,2,293.6648,293.6648,62,2:1,0.3288,0.66,S02 Glass Breath R
+88,2,1,54.14,2.35,concert_harp,Z2,4,110.1243,110.1243,45,2:1,0.418,0.22,S02 Beat-C Nature Harp Bloom #1
+89,2,1,54.74,2.35,concert_harp,Z2,5,165.1864,165.1864,52,2:1,0.418,0.332,S02 Beat-C Nature Harp Bloom #2
+90,2,1,55.34,2.35,concert_harp,Z2,6,220.2486,220.2486,57,2:1,0.418,0.444,S02 Beat-C Nature Harp Bloom #3
+91,2,1,55.94,2.35,concert_harp,Z2,7,244.7206,244.7206,59,2:1,0.418,0.556,S02 Beat-C Nature Harp Bloom #4
+92,2,1,56.54,2.35,concert_harp,Z2,8,293.6648,293.6648,62,2:1,0.418,0.668,S02 Beat-C Nature Harp Bloom #5
+93,2,1,57.14,2.35,concert_harp,Z2,9,330.3729,330.3729,64,2:1,0.418,0.78,S02 Beat-C Nature Harp Bloom #6
+94,3,2,60.0,4.35,sub_pedal,Z1,0,48.9441,48.9441,31,3:2,0.4673,0.5,S03 Sub-Pedal Breath
+95,3,2,60.06,4.1,glass_pad,Z1,0,97.8883,97.8883,43,3:2,0.3567,0.34,S03 Glass Breath L
+96,3,2,60.08,7.6,quartz_bowl,ALL,0,391.553,391.553,67,3:2,0.52,0.5,S03 TRIAD Arrival Bowl (3:2)
+97,3,2,60.12,4.1,glass_pad,Z1,2,244.7206,244.7206,59,3:2,0.3261,0.66,S03 Glass Breath R
+98,3,2,61.4,1.9,straightedge_ray,Z2,0,293.6648,367.081,66,3:2,0.54,0.32,S03 Equilateral Triangle Side #1 Draw
+99,3,2,63.25,2.4,vertex_lock,Z2,0,587.3295,587.3295,74,3:2,0.62,0.32,S03 Triangle Vertex #1 & Z2 Gold Triangle Lock
+100,3,2,63.55,1.9,straightedge_ray,Z2,1,367.081,440.4972,69,3:2,0.54,0.5,S03 Equilateral Triangle Side #2 Draw
+101,3,2,64.0,4.35,sub_pedal,Z1,1,48.9441,48.9441,31,3:2,0.4761,0.5,S03 Sub-Pedal Breath
+102,3,2,64.06,4.1,glass_pad,Z1,0,146.8324,146.8324,50,3:2,0.3647,0.34,S03 Glass Breath L
+103,3,2,64.12,4.1,glass_pad,Z1,2,367.081,367.081,66,3:2,0.3334,0.66,S03 Glass Breath R
+104,3,2,64.45,3.1,felt_piano,Z1,1,220.2486,220.2486,57,3:2,0.3594,0.4,S03 Felt Piano Contemplation
+105,3,2,64.95,2.9,felt_piano,Z1,1,367.081,367.081,66,3:2,0.3294,0.6,S03 Felt Piano Answer
+106,3,2,65.4,2.4,vertex_lock,Z2,1,734.1619,734.1619,78,3:2,0.62,0.5,S03 Triangle Vertex #2 & Z2 Gold Triangle Lock
+107,3,2,65.7,1.9,straightedge_ray,Z2,2,440.4972,293.6648,62,3:2,0.54,0.68,S03 Equilateral Triangle Side #3 Draw
+108,3,2,67.55,2.4,vertex_lock,Z2,2,880.9943,880.9943,81,3:2,0.62,0.68,S03 Triangle Vertex #3 & Z2 Gold Triangle Lock
+109,3,2,68.0,4.35,sub_pedal,Z1,2,48.9441,48.9441,31,3:2,0.489,0.5,S03 Sub-Pedal Breath
+110,3,2,68.06,4.1,glass_pad,Z1,0,97.8883,97.8883,43,3:2,0.3766,0.34,S03 Glass Breath L
+111,3,2,68.12,4.1,glass_pad,Z1,2,244.7206,244.7206,59,3:2,0.3442,0.66,S03 Glass Breath R
+112,3,2,72.0,4.35,sub_pedal,Z1,3,48.9441,48.9441,31,3:2,0.4989,0.5,S03 Sub-Pedal Breath
+113,3,2,72.06,4.1,glass_pad,Z1,0,146.8324,146.8324,50,3:2,0.3856,0.34,S03 Glass Breath L
+114,3,2,72.12,4.1,glass_pad,Z1,2,367.081,367.081,66,3:2,0.3524,0.66,S03 Glass Breath R
+115,3,2,72.4,1.6,straightedge_ray,Z1,0,220.2486,440.4972,69,3:2,0.58,0.38,S03 Diagonal Truss Brace Snaps Shearing Square Rigid!
+116,3,2,72.45,3.1,felt_piano,Z1,1,220.2486,220.2486,57,3:2,0.3727,0.4,S03 Felt Piano Contemplation
+117,3,2,72.95,2.9,felt_piano,Z1,1,367.081,367.081,66,3:2,0.3427,0.6,S03 Felt Piano Answer
+118,3,2,75.0,2.4,vertex_lock,Z1,0,440.4972,440.4972,69,3:2,0.6,0.25,S03 Gothic Lancet Arch #1 Keystone Compression Lock
+119,3,2,76.0,6.8,tibetan_bell,Z2,6,293.6648,293.6648,62,3:2,0.44,0.48,S03 TRIAD Natural Culmination Bowl
+120,3,2,76.0,4.35,sub_pedal,Z1,0,73.4162,73.4162,38,3:2,0.5039,0.5,S03 Sub-Pedal Breath
+121,3,2,76.06,4.1,glass_pad,Z1,0,146.8324,146.8324,50,3:2,0.3902,0.34,S03 Glass Breath L
+122,3,2,76.12,4.1,glass_pad,Z1,2,293.6648,293.6648,62,3:2,0.3566,0.66,S03 Glass Breath R
+123,3,2,76.4,2.4,vertex_lock,Z1,1,550.6214,550.6214,73,3:2,0.6,0.5,S03 Gothic Lancet Arch #2 Keystone Compression Lock
+124,3,2,77.8,2.4,vertex_lock,Z1,2,660.7457,660.7457,76,3:2,0.6,0.75,S03 Gothic Lancet Arch #3 Keystone Compression Lock
+125,3,2,80.0,4.35,sub_pedal,Z1,1,73.4162,73.4162,38,3:2,0.5035,0.5,S03 Sub-Pedal Breath
+126,3,2,80.06,4.1,glass_pad,Z1,0,220.2486,220.2486,57,3:2,0.3899,0.34,S03 Glass Breath L
+127,3,2,80.12,4.1,glass_pad,Z1,2,367.081,367.081,66,3:2,0.3562,0.66,S03 Glass Breath R
+128,3,2,80.14,2.35,concert_harp,Z2,6,660.7457,660.7457,76,3:2,0.4426,0.22,S03 Beat-C Nature Harp Bloom #1
+129,3,2,80.59,2.35,concert_harp,Z2,7,587.3295,587.3295,74,3:2,0.4426,0.3,S03 Beat-C Nature Harp Bloom #2
+130,3,2,81.04,2.35,concert_harp,Z2,8,440.4972,440.4972,69,3:2,0.4426,0.38,S03 Beat-C Nature Harp Bloom #3
+131,3,2,81.49,2.35,concert_harp,Z2,9,367.081,367.081,66,3:2,0.4426,0.46,S03 Beat-C Nature Harp Bloom #4
+132,3,2,81.94,2.35,concert_harp,Z2,10,330.3729,330.3729,64,3:2,0.4426,0.54,S03 Beat-C Nature Harp Bloom #5
+133,3,2,82.39,2.35,concert_harp,Z2,11,293.6648,293.6648,62,3:2,0.4426,0.62,S03 Beat-C Nature Harp Bloom #6
+134,3,2,82.84,2.35,concert_harp,Z2,12,220.2486,220.2486,57,3:2,0.4426,0.7,S03 Beat-C Nature Harp Bloom #7
+135,3,2,83.29,2.35,concert_harp,Z2,13,146.8324,146.8324,50,3:2,0.4426,0.78,S03 Beat-C Nature Harp Bloom #8
+136,3,2,84.0,4.35,sub_pedal,Z1,2,73.4162,73.4162,38,3:2,0.4982,0.5,S03 Sub-Pedal Breath
+137,3,2,84.06,4.1,glass_pad,Z1,0,146.8324,146.8324,50,3:2,0.385,0.34,S03 Glass Breath L
+138,3,2,84.12,4.1,glass_pad,Z1,2,293.6648,293.6648,62,3:2,0.3518,0.66,S03 Glass Breath R
+139,3,2,84.14,2.35,concert_harp,Z2,6,146.8324,146.8324,50,3:2,0.4386,0.22,S03 Beat-C Nature Harp Bloom #1
+140,3,2,84.59,2.35,concert_harp,Z2,7,220.2486,220.2486,57,3:2,0.4386,0.3,S03 Beat-C Nature Harp Bloom #2
+141,3,2,85.04,2.35,concert_harp,Z2,8,293.6648,293.6648,62,3:2,0.4386,0.38,S03 Beat-C Nature Harp Bloom #3
+142,3,2,85.49,2.35,concert_harp,Z2,9,330.3729,330.3729,64,3:2,0.4386,0.46,S03 Beat-C Nature Harp Bloom #4
+143,3,2,85.94,2.35,concert_harp,Z2,10,367.081,367.081,66,3:2,0.4386,0.54,S03 Beat-C Nature Harp Bloom #5
+144,3,2,86.39,2.35,concert_harp,Z2,11,440.4972,440.4972,69,3:2,0.4386,0.62,S03 Beat-C Nature Harp Bloom #6
+145,3,2,86.84,2.35,concert_harp,Z2,12,587.3295,587.3295,74,3:2,0.4386,0.7,S03 Beat-C Nature Harp Bloom #7
+146,3,2,87.29,2.35,concert_harp,Z2,13,660.7457,660.7457,76,3:2,0.4386,0.78,S03 Beat-C Nature Harp Bloom #8
+147,4,2,90.0,4.35,sub_pedal,Z1,0,82.5932,82.5932,40,4:3,0.4911,0.5,S04 Sub-Pedal Breath
+148,4,2,90.06,4.1,glass_pad,Z1,0,165.1864,165.1864,52,4:3,0.3785,0.34,S04 Glass Breath L
+149,4,2,90.08,7.6,tibetan_bell,ALL,0,330.3729,330.3729,64,4:3,0.52,0.5,S04 TETRAD Arrival Bowl (4:3)
+150,4,2,90.12,4.1,glass_pad,Z1,2,293.6648,293.6648,62,4:3,0.3459,0.66,S04 Glass Breath R
+151,4,2,91.2,3.2,harmonic_pluck,Z1,0,293.6648,293.6648,62,4:3,0.62,0.16,S04 Column #1 Ignition: 0D Point
+152,4,2,93.05,3.2,harmonic_pluck,Z1,1,391.553,391.553,67,4:3,0.62,0.38,S04 Column #2 Ignition: 1D Line
+153,4,2,94.0,4.35,sub_pedal,Z1,1,82.5932,82.5932,40,4:3,0.4995,0.5,S04 Sub-Pedal Breath
+154,4,2,94.06,4.1,glass_pad,Z1,0,244.7206,244.7206,59,4:3,0.3862,0.34,S04 Glass Breath L
+155,4,2,94.12,4.1,glass_pad,Z1,2,367.081,367.081,66,4:3,0.3529,0.66,S04 Glass Breath R
+156,4,2,94.45,3.1,felt_piano,Z1,1,244.7206,244.7206,59,4:3,0.3731,0.4,S04 Felt Piano Contemplation
+157,4,2,94.9,3.2,harmonic_pluck,Z1,2,440.4972,440.4972,69,4:3,0.62,0.62,S04 Column #3 Ignition: 2D Triangle Plane
+158,4,2,94.95,2.9,felt_piano,Z1,1,367.081,367.081,66,4:3,0.3431,0.6,S04 Felt Piano Answer
+159,4,2,96.75,3.2,harmonic_pluck,Z1,3,587.3295,587.3295,74,4:3,0.62,0.84,S04 Column #4 Ignition: 3D Tetrahedron Volume
+160,4,2,98.0,4.35,sub_pedal,Z1,2,82.5932,82.5932,40,4:3,0.5127,0.5,S04 Sub-Pedal Breath
+161,4,2,98.06,4.1,glass_pad,Z1,0,165.1864,165.1864,52,4:3,0.3983,0.34,S04 Glass Breath L
+162,4,2,98.12,4.1,glass_pad,Z1,2,293.6648,293.6648,62,4:3,0.3639,0.66,S04 Glass Breath R
+163,4,2,98.8,3.6,compass_arc,ALL,1,293.6648,391.553,67,4:3,0.56,0.5,S04 Euclid's 4-Circle Weave of the Goddess Sweep
+164,4,2,102.0,4.35,sub_pedal,Z1,3,82.5932,82.5932,40,4:3,0.522,0.5,S04 Sub-Pedal Breath
+165,4,2,102.06,4.1,glass_pad,Z1,0,244.7206,244.7206,59,4:3,0.4068,0.34,S04 Glass Breath L
+166,4,2,102.12,4.1,glass_pad,Z1,2,367.081,367.081,66,4:3,0.3717,0.66,S04 Glass Breath R
+167,4,2,102.45,3.1,felt_piano,Z1,1,244.7206,244.7206,59,4:3,0.3862,0.4,S04 Felt Piano Contemplation
+168,4,2,102.95,2.9,felt_piano,Z1,1,367.081,367.081,66,4:3,0.3562,0.6,S04 Felt Piano Answer
+169,4,2,103.2,2.2,vertex_lock,Z2,0,293.6648,293.6648,62,4:3,0.56,0.26,S04 3D Tetrahedral 109.47-Deg Bond Vertex #1
+170,4,2,104.55,2.2,vertex_lock,Z2,5,391.553,391.553,67,4:3,0.56,0.42,S04 3D Tetrahedral 109.47-Deg Bond Vertex #2
+171,4,2,105.9,2.2,vertex_lock,Z2,10,440.4972,440.4972,69,4:3,0.56,0.58,S04 3D Tetrahedral 109.47-Deg Bond Vertex #3
+172,4,2,106.0,6.8,quartz_bowl,Z2,8,391.553,391.553,67,4:3,0.44,0.48,S04 TETRAD Natural Culmination Bowl
+173,4,2,106.0,4.35,sub_pedal,Z1,0,48.9441,48.9441,31,4:3,0.5257,0.5,S04 Sub-Pedal Breath
+174,4,2,106.06,4.1,glass_pad,Z1,0,97.8883,97.8883,43,4:3,0.4103,0.34,S04 Glass Breath L
+175,4,2,106.12,4.1,glass_pad,Z1,2,244.7206,244.7206,59,4:3,0.3748,0.66,S04 Glass Breath R
+176,4,2,107.25,2.2,vertex_lock,Z2,15,587.3295,587.3295,74,4:3,0.56,0.74,S04 3D Tetrahedral 109.47-Deg Bond Vertex #4
+177,4,2,110.0,4.35,sub_pedal,Z1,1,48.9441,48.9441,31,4:3,0.5233,0.5,S04 Sub-Pedal Breath
+178,4,2,110.06,4.1,glass_pad,Z1,0,146.8324,146.8324,50,4:3,0.408,0.34,S04 Glass Breath L
+179,4,2,110.12,4.1,glass_pad,Z1,2,367.081,367.081,66,4:3,0.3728,0.66,S04 Glass Breath R
+180,4,2,110.14,2.35,concert_harp,Z2,8,440.4972,440.4972,69,4:3,0.4575,0.22,S04 Beat-C Nature Harp Bloom #1
+181,4,2,110.59,2.35,concert_harp,Z2,9,391.553,391.553,67,4:3,0.4575,0.3,S04 Beat-C Nature Harp Bloom #2
+182,4,2,111.04,2.35,concert_harp,Z2,10,367.081,367.081,66,4:3,0.4575,0.38,S04 Beat-C Nature Harp Bloom #3
+183,4,2,111.49,2.35,concert_harp,Z2,11,293.6648,293.6648,62,4:3,0.4575,0.46,S04 Beat-C Nature Harp Bloom #4
+184,4,2,111.94,2.35,concert_harp,Z2,12,244.7206,244.7206,59,4:3,0.4575,0.54,S04 Beat-C Nature Harp Bloom #5
+185,4,2,112.39,2.35,concert_harp,Z2,13,220.2486,220.2486,57,4:3,0.4575,0.62,S04 Beat-C Nature Harp Bloom #6
+186,4,2,112.84,2.35,concert_harp,Z2,14,146.8324,146.8324,50,4:3,0.4575,0.7,S04 Beat-C Nature Harp Bloom #7
+187,4,2,113.29,2.35,concert_harp,Z2,15,97.8883,97.8883,43,4:3,0.4575,0.78,S04 Beat-C Nature Harp Bloom #8
+188,4,2,114.0,4.35,sub_pedal,Z1,2,48.9441,48.9441,31,4:3,0.5156,0.5,S04 Sub-Pedal Breath
+189,4,2,114.06,4.1,glass_pad,Z1,0,97.8883,97.8883,43,4:3,0.401,0.34,S04 Glass Breath L
+190,4,2,114.12,4.1,glass_pad,Z1,2,244.7206,244.7206,59,4:3,0.3663,0.66,S04 Glass Breath R
+191,4,2,114.14,2.35,concert_harp,Z2,8,97.8883,97.8883,43,4:3,0.4517,0.22,S04 Beat-C Nature Harp Bloom #1
+192,4,2,114.59,2.35,concert_harp,Z2,9,146.8324,146.8324,50,4:3,0.4517,0.3,S04 Beat-C Nature Harp Bloom #2
+193,4,2,115.04,2.35,concert_harp,Z2,10,220.2486,220.2486,57,4:3,0.4517,0.38,S04 Beat-C Nature Harp Bloom #3
+194,4,2,115.49,2.35,concert_harp,Z2,11,244.7206,244.7206,59,4:3,0.4517,0.46,S04 Beat-C Nature Harp Bloom #4
+195,4,2,115.94,2.35,concert_harp,Z2,12,293.6648,293.6648,62,4:3,0.4517,0.54,S04 Beat-C Nature Harp Bloom #5
+196,4,2,116.39,2.35,concert_harp,Z2,13,367.081,367.081,66,4:3,0.4517,0.62,S04 Beat-C Nature Harp Bloom #6
+197,4,2,116.84,2.35,concert_harp,Z2,14,391.553,391.553,67,4:3,0.4517,0.7,S04 Beat-C Nature Harp Bloom #7
+198,4,2,117.29,2.35,concert_harp,Z2,15,440.4972,440.4972,69,4:3,0.4517,0.78,S04 Beat-C Nature Harp Bloom #8
+199,5,3,120.0,4.35,sub_pedal,Z1,0,73.4162,73.4162,38,1:Phi,0.5053,0.5,S05 Sub-Pedal Breath
+200,5,3,120.06,4.1,glass_pad,Z1,0,146.8324,146.8324,50,1:Phi,0.3915,0.34,S05 Glass Breath L
+201,5,3,120.08,7.6,quartz_bowl,ALL,0,293.6648,293.6648,62,1:Phi,0.52,0.5,S05 PENTAD Arrival Bowl (1:Phi)
+202,5,3,120.12,4.1,glass_pad,Z1,2,293.6648,293.6648,62,1:Phi,0.3577,0.66,S05 Glass Breath R
+203,5,3,121.0,1.8,straightedge_ray,Z1,1,293.6648,367.081,66,sqrt5,0.54,0.45,S05 1x2 Double-Square Root-5 Diagonal Draw
+204,5,3,122.9,2.3,compass_arc,Z1,1,367.081,469.8636,70,1:Phi,0.62,0.55,S05 Compass Swings Root-5/2 -> Birth of Golden Ratio Phi!
+205,5,3,124.0,4.35,sub_pedal,Z1,1,73.4162,73.4162,38,1:Phi,0.5129,0.5,S05 Sub-Pedal Breath
+206,5,3,124.06,4.1,glass_pad,Z1,0,220.2486,220.2486,57,1:Phi,0.3985,0.34,S05 Glass Breath L
+207,5,3,124.12,4.1,glass_pad,Z1,2,367.081,367.081,66,1:Phi,0.3641,0.66,S05 Glass Breath R
+208,5,3,124.45,3.1,felt_piano,Z1,1,293.6648,293.6648,62,1:Phi,0.3809,0.4,S05 Felt Piano Contemplation
+209,5,3,124.95,2.9,felt_piano,Z1,1,440.4972,440.4972,69,1:Phi,0.3509,0.6,S05 Felt Piano Answer
+210,5,3,125.25,3.2,vertex_lock,ALL,0,734.1619,734.1619,78,1:Phi,0.7,0.5,S05 Golden Section Phi = 1.618034 Lock Chime!
+211,5,3,125.8,1.75,straightedge_ray,Z2,0,293.6648,734.1619,78,1:Phi,0.48,0.25,S05 Lute of Pythagoras Pentagram Ray #1
+212,5,3,126.52,1.75,straightedge_ray,Z2,4,330.3729,880.9943,81,1:Phi,0.48,0.37,S05 Lute of Pythagoras Pentagram Ray #2
+213,5,3,127.24,1.75,straightedge_ray,Z2,8,367.081,978.8826,83,1:Phi,0.48,0.49,S05 Lute of Pythagoras Pentagram Ray #3
+214,5,3,127.96,1.75,straightedge_ray,Z2,12,440.4972,587.3295,74,1:Phi,0.48,0.61,S05 Lute of Pythagoras Pentagram Ray #4
+215,5,3,128.0,4.35,sub_pedal,Z1,2,73.4162,73.4162,38,1:Phi,0.5254,0.5,S05 Sub-Pedal Breath
+216,5,3,128.06,4.1,glass_pad,Z1,0,146.8324,146.8324,50,1:Phi,0.41,0.34,S05 Glass Breath L
+217,5,3,128.12,4.1,glass_pad,Z1,2,293.6648,293.6648,62,1:Phi,0.3745,0.66,S05 Glass Breath R
+218,5,3,128.68,1.75,straightedge_ray,Z2,16,489.4413,660.7457,76,1:Phi,0.48,0.73,S05 Lute of Pythagoras Pentagram Ray #5
+219,5,3,130.3,0.95,phyllotaxis_seed,Z2,0,146.8324,146.8324,50,137.5deg,0.26,0.86,S05 Phyllotaxis Seed #1/55 (137.508 deg)
+220,5,3,130.468,0.95,phyllotaxis_seed,Z2,1,165.1864,165.1864,52,137.5deg,0.2705,0.2345,S05 Phyllotaxis Seed #2/55 (137.508 deg)
+221,5,3,130.636,0.95,phyllotaxis_seed,Z2,2,183.5405,183.5405,54,137.5deg,0.2809,0.5315,S05 Phyllotaxis Seed #3/55 (137.508 deg)
+222,5,3,130.804,0.95,phyllotaxis_seed,Z2,3,220.2486,220.2486,57,137.5deg,0.2913,0.719,S05 Phyllotaxis Seed #4/55 (137.508 deg)
+223,5,3,130.972,0.95,phyllotaxis_seed,Z2,4,244.7206,244.7206,59,137.5deg,0.3015,0.1455,S05 Phyllotaxis Seed #5/55 (137.508 deg)
+224,5,3,131.14,0.95,phyllotaxis_seed,Z2,5,146.8324,146.8324,50,137.5deg,0.3116,0.8038,S05 Phyllotaxis Seed #6/55 (137.508 deg)
+225,5,3,131.308,0.95,phyllotaxis_seed,Z2,6,165.1864,165.1864,52,137.5deg,0.3216,0.4065,S05 Phyllotaxis Seed #7/55 (137.508 deg)
+226,5,3,131.476,0.95,phyllotaxis_seed,Z2,7,183.5405,183.5405,54,137.5deg,0.3313,0.3341,S05 Phyllotaxis Seed #8/55 (137.508 deg)
+227,5,3,131.644,0.95,phyllotaxis_seed,Z2,8,220.2486,220.2486,57,137.5deg,0.3408,0.8382,S05 Phyllotaxis Seed #9/55 (137.508 deg)
+228,5,3,131.812,0.95,phyllotaxis_seed,Z2,9,244.7206,244.7206,59,137.5deg,0.35,0.1672,S05 Phyllotaxis Seed #10/55 (137.508 deg)
+229,5,3,131.98,0.95,phyllotaxis_seed,Z2,10,146.8324,146.8324,50,137.5deg,0.3589,0.6526,S05 Phyllotaxis Seed #11/55 (137.508 deg)
+230,5,3,132.0,4.35,sub_pedal,Z1,3,73.4162,73.4162,38,1:Phi,0.5337,0.5,S05 Sub-Pedal Breath
+231,5,3,132.06,4.1,glass_pad,Z1,0,220.2486,220.2486,57,1:Phi,0.4175,0.34,S05 Glass Breath L
+232,5,3,132.12,4.1,glass_pad,Z1,2,367.081,367.081,66,1:Phi,0.3814,0.66,S05 Glass Breath R
+233,5,3,132.148,0.95,phyllotaxis_seed,Z2,11,165.1864,165.1864,52,137.5deg,0.3675,0.6077,S05 Phyllotaxis Seed #12/55 (137.508 deg)
+234,5,3,132.316,0.95,phyllotaxis_seed,Z2,12,183.5405,183.5405,54,137.5deg,0.3757,0.1885,S05 Phyllotaxis Seed #13/55 (137.508 deg)
+235,5,3,132.45,3.1,felt_piano,Z1,1,293.6648,293.6648,62,1:Phi,0.393,0.4,S05 Felt Piano Contemplation
+236,5,3,132.484,0.95,phyllotaxis_seed,Z2,13,220.2486,220.2486,57,137.5deg,0.3835,0.8516,S05 Phyllotaxis Seed #14/55 (137.508 deg)
+237,5,3,132.652,0.95,phyllotaxis_seed,Z2,14,244.7206,244.7206,59,137.5deg,0.3909,0.293,S05 Phyllotaxis Seed #15/55 (137.508 deg)
+238,5,3,132.82,0.95,phyllotaxis_seed,Z2,15,146.8324,146.8324,50,137.5deg,0.3979,0.4537,S05 Phyllotaxis Seed #16/55 (137.508 deg)
+239,5,3,132.95,2.9,felt_piano,Z1,1,440.4972,440.4972,69,1:Phi,0.363,0.6,S05 Felt Piano Answer
+240,5,3,132.988,0.95,phyllotaxis_seed,Z2,16,165.1864,165.1864,52,137.5deg,0.4044,0.7753,S05 Phyllotaxis Seed #17/55 (137.508 deg)
+241,5,3,133.156,0.95,phyllotaxis_seed,Z2,17,183.5405,183.5405,54,137.5deg,0.4104,0.1403,S05 Phyllotaxis Seed #18/55 (137.508 deg)
+242,5,3,133.324,0.95,phyllotaxis_seed,Z2,18,440.4972,440.4972,69,137.5deg,0.4159,0.7552,S05 Phyllotaxis Seed #19/55 (137.508 deg)
+243,5,3,133.492,0.95,phyllotaxis_seed,Z2,19,489.4413,489.4413,71,137.5deg,0.4209,0.4834,S05 Phyllotaxis Seed #20/55 (137.508 deg)
+244,5,3,133.66,0.95,phyllotaxis_seed,Z2,0,293.6648,293.6648,62,137.5deg,0.4253,0.2693,S05 Phyllotaxis Seed #21/55 (137.508 deg)
+245,5,3,133.828,0.95,phyllotaxis_seed,Z2,1,330.3729,330.3729,64,137.5deg,0.4291,0.8568,S05 Phyllotaxis Seed #22/55 (137.508 deg)
+246,5,3,133.996,0.95,phyllotaxis_seed,Z2,2,367.081,367.081,66,137.5deg,0.4324,0.2045,S05 Phyllotaxis Seed #23/55 (137.508 deg)
+247,5,3,134.164,0.95,phyllotaxis_seed,Z2,3,440.4972,440.4972,69,137.5deg,0.4351,0.579,S05 Phyllotaxis Seed #24/55 (137.508 deg)
+248,5,3,134.332,0.95,phyllotaxis_seed,Z2,4,489.4413,489.4413,71,137.5deg,0.4373,0.679,S05 Phyllotaxis Seed #25/55 (137.508 deg)
+249,5,3,134.5,0.95,phyllotaxis_seed,Z2,5,293.6648,293.6648,62,137.5deg,0.4388,0.157,S05 Phyllotaxis Seed #26/55 (137.508 deg)
+250,5,3,134.668,0.95,phyllotaxis_seed,Z2,6,330.3729,330.3729,64,137.5deg,0.4397,0.8268,S05 Phyllotaxis Seed #27/55 (137.508 deg)
+251,5,3,134.836,0.95,phyllotaxis_seed,Z2,7,367.081,367.081,66,137.5deg,0.44,0.361,S05 Phyllotaxis Seed #28/55 (137.508 deg)
+252,5,3,135.004,0.95,phyllotaxis_seed,Z2,8,440.4972,440.4972,69,137.5deg,0.4397,0.3782,S05 Phyllotaxis Seed #29/55 (137.508 deg)
+253,5,3,135.172,0.95,phyllotaxis_seed,Z2,9,489.4413,489.4413,71,137.5deg,0.4388,0.8187,S05 Phyllotaxis Seed #30/55 (137.508 deg)
+254,5,3,135.34,0.95,phyllotaxis_seed,Z2,10,293.6648,293.6648,62,137.5deg,0.4373,0.1519,S05 Phyllotaxis Seed #31/55 (137.508 deg)
+255,5,3,135.508,0.95,phyllotaxis_seed,Z2,11,330.3729,330.3729,64,137.5deg,0.4351,0.6947,S05 Phyllotaxis Seed #32/55 (137.508 deg)
+256,5,3,135.676,0.95,phyllotaxis_seed,Z2,12,367.081,367.081,66,137.5deg,0.4324,0.561,S05 Phyllotaxis Seed #33/55 (137.508 deg)
+257,5,3,135.844,0.95,phyllotaxis_seed,Z2,13,440.4972,440.4972,69,137.5deg,0.4291,0.2154,S05 Phyllotaxis Seed #34/55 (137.508 deg)
+258,5,3,136.0,6.8,tibetan_bell,Z2,10,489.4413,489.4413,71,1:Phi,0.44,0.48,S05 PENTAD Natural Culmination Bowl
+259,5,3,136.0,4.35,sub_pedal,Z1,0,61.1802,61.1802,35,1:Phi,0.5359,0.5,S05 Sub-Pedal Breath
+260,5,3,136.012,0.95,phyllotaxis_seed,Z2,14,489.4413,489.4413,71,137.5deg,0.4253,0.8588,S05 Phyllotaxis Seed #35/55 (137.508 deg)
+261,5,3,136.06,4.1,glass_pad,Z1,0,122.3603,122.3603,47,1:Phi,0.4196,0.34,S05 Glass Breath L
+262,5,3,136.12,4.1,glass_pad,Z1,2,293.6648,293.6648,62,1:Phi,0.3833,0.66,S05 Glass Breath R
+263,5,3,136.18,0.95,phyllotaxis_seed,Z2,15,293.6648,293.6648,62,137.5deg,0.4209,0.2555,S05 Phyllotaxis Seed #36/55 (137.508 deg)
+264,5,3,136.348,0.95,phyllotaxis_seed,Z2,16,330.3729,330.3729,64,137.5deg,0.4159,0.5018,S05 Phyllotaxis Seed #37/55 (137.508 deg)
+265,5,3,136.516,0.95,phyllotaxis_seed,Z2,17,367.081,367.081,66,137.5deg,0.4104,0.7419,S05 Phyllotaxis Seed #38/55 (137.508 deg)
+266,5,3,136.684,0.95,phyllotaxis_seed,Z2,18,440.4972,440.4972,69,137.5deg,0.4044,0.1415,S05 Phyllotaxis Seed #39/55 (137.508 deg)
+267,5,3,136.852,0.95,phyllotaxis_seed,Z2,19,489.4413,489.4413,71,137.5deg,0.3979,0.7868,S05 Phyllotaxis Seed #40/55 (137.508 deg)
+268,5,3,137.02,0.95,phyllotaxis_seed,Z2,0,587.3295,587.3295,74,137.5deg,0.3909,0.4356,S05 Phyllotaxis Seed #41/55 (137.508 deg)
+269,5,3,137.188,0.95,phyllotaxis_seed,Z2,1,660.7457,660.7457,76,137.5deg,0.3835,0.3083,S05 Phyllotaxis Seed #42/55 (137.508 deg)
+270,5,3,137.356,0.95,phyllotaxis_seed,Z2,2,734.1619,734.1619,78,137.5deg,0.3757,0.8472,S05 Phyllotaxis Seed #43/55 (137.508 deg)
+271,5,3,137.524,0.95,phyllotaxis_seed,Z2,3,880.9943,880.9943,81,137.5deg,0.3675,0.1797,S05 Phyllotaxis Seed #44/55 (137.508 deg)
+272,5,3,137.692,0.95,phyllotaxis_seed,Z2,4,978.8826,978.8826,83,137.5deg,0.3589,0.6251,S05 Phyllotaxis Seed #45/55 (137.508 deg)
+273,5,3,137.86,0.95,phyllotaxis_seed,Z2,5,587.3295,587.3295,74,137.5deg,0.35,0.6357,S05 Phyllotaxis Seed #46/55 (137.508 deg)
+274,5,3,138.028,0.95,phyllotaxis_seed,Z2,6,660.7457,660.7457,76,137.5deg,0.3408,0.1747,S05 Phyllotaxis Seed #47/55 (137.508 deg)
+275,5,3,138.196,0.95,phyllotaxis_seed,Z2,7,734.1619,734.1619,78,137.5deg,0.3313,0.844,S05 Phyllotaxis Seed #48/55 (137.508 deg)
+276,5,3,138.364,0.95,phyllotaxis_seed,Z2,8,880.9943,880.9943,81,137.5deg,0.3216,0.318,S05 Phyllotaxis Seed #49/55 (137.508 deg)
+277,5,3,138.532,0.95,phyllotaxis_seed,Z2,9,978.8826,978.8826,83,137.5deg,0.3116,0.4244,S05 Phyllotaxis Seed #50/55 (137.508 deg)
+278,5,3,138.7,0.95,phyllotaxis_seed,Z2,10,587.3295,587.3295,74,137.5deg,0.3015,0.7935,S05 Phyllotaxis Seed #51/55 (137.508 deg)
+279,5,3,138.868,0.95,phyllotaxis_seed,Z2,11,660.7457,660.7457,76,137.5deg,0.2913,0.1428,S05 Phyllotaxis Seed #52/55 (137.508 deg)
+280,5,3,139.036,0.95,phyllotaxis_seed,Z2,12,734.1619,734.1619,78,137.5deg,0.2809,0.7333,S05 Phyllotaxis Seed #53/55 (137.508 deg)
+281,5,3,139.204,0.95,phyllotaxis_seed,Z2,13,880.9943,880.9943,81,137.5deg,0.2705,0.5131,S05 Phyllotaxis Seed #54/55 (137.508 deg)
+282,5,3,139.372,0.95,phyllotaxis_seed,Z2,14,978.8826,978.8826,83,137.5deg,0.26,0.2473,S05 Phyllotaxis Seed #55/55 (137.508 deg)
+283,5,3,140.0,4.35,sub_pedal,Z1,1,61.1802,61.1802,35,1:Phi,0.5317,0.5,S05 Sub-Pedal Breath
+284,5,3,140.06,4.1,glass_pad,Z1,0,183.5405,183.5405,54,1:Phi,0.4157,0.34,S05 Glass Breath L
+285,5,3,140.12,4.1,glass_pad,Z1,2,440.4972,440.4972,69,1:Phi,0.3797,0.66,S05 Glass Breath R
+286,5,3,140.14,2.35,concert_harp,Z2,10,587.3295,587.3295,74,1:Phi,0.4638,0.22,S05 Beat-C Nature Harp Bloom #1
+287,5,3,140.59,2.35,concert_harp,Z2,11,489.4413,489.4413,71,1:Phi,0.4638,0.3,S05 Beat-C Nature Harp Bloom #2
+288,5,3,141.04,2.35,concert_harp,Z2,12,440.4972,440.4972,69,1:Phi,0.4638,0.38,S05 Beat-C Nature Harp Bloom #3
+289,5,3,141.49,2.35,concert_harp,Z2,13,367.081,367.081,66,1:Phi,0.4638,0.46,S05 Beat-C Nature Harp Bloom #4
+290,5,3,141.94,2.35,concert_harp,Z2,14,293.6648,293.6648,62,1:Phi,0.4638,0.54,S05 Beat-C Nature Harp Bloom #5
+291,5,3,142.39,2.35,concert_harp,Z2,15,220.2486,220.2486,57,1:Phi,0.4638,0.62,S05 Beat-C Nature Harp Bloom #6
+292,5,3,142.84,2.35,concert_harp,Z2,16,183.5405,183.5405,54,1:Phi,0.4638,0.7,S05 Beat-C Nature Harp Bloom #7
+293,5,3,143.29,2.35,concert_harp,Z2,17,122.3603,122.3603,47,1:Phi,0.4638,0.78,S05 Beat-C Nature Harp Bloom #8
+294,5,3,144.0,4.35,sub_pedal,Z1,2,61.1802,61.1802,35,1:Phi,0.522,0.5,S05 Sub-Pedal Breath
+295,5,3,144.06,4.1,glass_pad,Z1,0,122.3603,122.3603,47,1:Phi,0.4069,0.34,S05 Glass Breath L
+296,5,3,144.12,4.1,glass_pad,Z1,2,293.6648,293.6648,62,1:Phi,0.3717,0.66,S05 Glass Breath R
+297,5,3,144.14,2.35,concert_harp,Z2,10,122.3603,122.3603,47,1:Phi,0.4565,0.22,S05 Beat-C Nature Harp Bloom #1
+298,5,3,144.59,2.35,concert_harp,Z2,11,183.5405,183.5405,54,1:Phi,0.4565,0.3,S05 Beat-C Nature Harp Bloom #2
+299,5,3,145.04,2.35,concert_harp,Z2,12,220.2486,220.2486,57,1:Phi,0.4565,0.38,S05 Beat-C Nature Harp Bloom #3
+300,5,3,145.49,2.35,concert_harp,Z2,13,293.6648,293.6648,62,1:Phi,0.4565,0.46,S05 Beat-C Nature Harp Bloom #4
+301,5,3,145.94,2.35,concert_harp,Z2,14,367.081,367.081,66,1:Phi,0.4565,0.54,S05 Beat-C Nature Harp Bloom #5
+302,5,3,146.39,2.35,concert_harp,Z2,15,440.4972,440.4972,69,1:Phi,0.4565,0.62,S05 Beat-C Nature Harp Bloom #6
+303,5,3,146.84,2.35,concert_harp,Z2,16,489.4413,489.4413,71,1:Phi,0.4565,0.7,S05 Beat-C Nature Harp Bloom #7
+304,5,3,147.29,2.35,concert_harp,Z2,17,587.3295,587.3295,74,1:Phi,0.4565,0.78,S05 Beat-C Nature Harp Bloom #8
+305,6,3,150.0,4.35,sub_pedal,Z1,0,48.9441,48.9441,31,5:3,0.5092,0.5,S06 Sub-Pedal Breath
+306,6,3,150.06,4.1,glass_pad,Z1,0,97.8883,97.8883,43,5:3,0.3951,0.34,S06 Glass Breath L
+307,6,3,150.08,7.6,tibetan_bell,ALL,0,391.553,391.553,67,5:3,0.52,0.5,S06 HEXAD Arrival Bowl (5:3)
+308,6,3,150.12,4.1,glass_pad,Z1,2,244.7206,244.7206,59,5:3,0.361,0.66,S06 Glass Breath R
+309,6,3,150.9,0.9,compass_arc,ALL,0,146.8324,293.6648,62,5:3,0.5,0.5,S06 Seed of Life Circle #0/6 Compass Sweep
+310,6,3,151.78,2.0,vertex_lock,Z2,0,293.6648,293.6648,62,6x60=360,0.56,0.5,S06 Kissing Circle #0/6 Exact Tangent Lock
+311,6,3,151.86,0.9,compass_arc,ALL,3,165.1864,330.3729,64,5:3,0.5,0.84,S06 Seed of Life Circle #1/6 Compass Sweep
+312,6,3,152.74,2.0,vertex_lock,Z2,3,330.3729,330.3729,64,6x60=360,0.56,0.84,S06 Kissing Circle #1/6 Exact Tangent Lock
+313,6,3,152.82,0.9,compass_arc,ALL,6,183.5405,367.081,66,5:3,0.5,0.67,S06 Seed of Life Circle #2/6 Compass Sweep
+314,6,3,153.7,2.0,vertex_lock,Z2,6,367.081,367.081,66,6x60=360,0.56,0.67,S06 Kissing Circle #2/6 Exact Tangent Lock
+315,6,3,153.78,0.9,compass_arc,ALL,9,195.7765,391.553,67,5:3,0.5,0.33,S06 Seed of Life Circle #3/6 Compass Sweep
+316,6,3,154.0,4.35,sub_pedal,Z1,1,48.9441,48.9441,31,5:3,0.5155,0.5,S06 Sub-Pedal Breath
+317,6,3,154.06,4.1,glass_pad,Z1,0,146.8324,146.8324,50,5:3,0.4008,0.34,S06 Glass Breath L
+318,6,3,154.12,4.1,glass_pad,Z1,2,367.081,367.081,66,5:3,0.3662,0.66,S06 Glass Breath R
+319,6,3,154.45,3.1,felt_piano,Z1,1,220.2486,220.2486,57,5:3,0.3823,0.4,S06 Felt Piano Contemplation
+320,6,3,154.66,2.0,vertex_lock,Z2,9,391.553,391.553,67,6x60=360,0.56,0.33,S06 Kissing Circle #3/6 Exact Tangent Lock
+321,6,3,154.74,0.9,compass_arc,ALL,12,220.2486,440.4972,69,5:3,0.5,0.16,S06 Seed of Life Circle #4/6 Compass Sweep
+322,6,3,154.95,2.9,felt_piano,Z1,1,367.081,367.081,66,5:3,0.3523,0.6,S06 Felt Piano Answer
+323,6,3,155.62,2.0,vertex_lock,Z2,12,440.4972,440.4972,69,6x60=360,0.56,0.16,S06 Kissing Circle #4/6 Exact Tangent Lock
+324,6,3,155.7,0.9,compass_arc,ALL,15,244.7206,489.4413,71,5:3,0.5,0.33,S06 Seed of Life Circle #5/6 Compass Sweep
+325,6,3,156.58,2.0,vertex_lock,Z2,15,489.4413,489.4413,71,6x60=360,0.56,0.33,S06 Kissing Circle #5/6 Exact Tangent Lock
+326,6,3,156.66,0.9,compass_arc,ALL,18,293.6648,587.3295,74,5:3,0.5,0.67,S06 Seed of Life Circle #6/6 Compass Sweep
+327,6,3,157.54,2.0,vertex_lock,Z2,18,587.3295,587.3295,74,6x60=360,0.56,0.67,S06 Kissing Circle #6/6 Exact Tangent Lock
+328,6,3,158.0,4.35,sub_pedal,Z1,2,48.9441,48.9441,31,5:3,0.5266,0.5,S06 Sub-Pedal Breath
+329,6,3,158.05,1.8,vertex_lock,Z1,0,440.4972,440.4972,69,3:4:5,0.52,0.35,S06 3-4-5 Temple Triangle Knot Lock #1
+330,6,3,158.06,4.1,glass_pad,Z1,0,97.8883,97.8883,43,5:3,0.411,0.34,S06 Glass Breath L
+331,6,3,158.12,4.1,glass_pad,Z1,2,244.7206,244.7206,59,5:3,0.3755,0.66,S06 Glass Breath R
+332,6,3,158.6,1.8,vertex_lock,Z1,1,587.3295,587.3295,74,3:4:5,0.52,0.5,S06 3-4-5 Temple Triangle Knot Lock #2
+333,6,3,159.15,1.8,vertex_lock,Z1,2,734.1619,734.1619,78,3:4:5,0.52,0.65,S06 3-4-5 Temple Triangle Knot Lock #3
+334,6,3,161.2,5.6,compass_arc,Z1,1,220.2486,489.4413,71,120deg,0.52,0.5,S06 Surface-Tension Compression: Circles -> 120-Deg Honeycomb
+335,6,3,162.0,4.35,sub_pedal,Z1,3,48.9441,48.9441,31,5:3,0.5333,0.5,S06 Sub-Pedal Breath
+336,6,3,162.0,1.45,concert_harp,Z1,0,293.6648,293.6648,62,120deg,0.38,0.2,S06 Honeycomb Cell Facet Lock #1
+337,6,3,162.06,4.1,glass_pad,Z1,0,146.8324,146.8324,50,5:3,0.4172,0.34,S06 Glass Breath L
+338,6,3,162.12,4.1,glass_pad,Z1,2,367.081,367.081,66,5:3,0.3811,0.66,S06 Glass Breath R
+339,6,3,162.45,3.1,felt_piano,Z1,1,220.2486,220.2486,57,5:3,0.3927,0.4,S06 Felt Piano Contemplation
+340,6,3,162.52,1.45,concert_harp,Z1,1,330.3729,330.3729,64,120deg,0.38,0.32,S06 Honeycomb Cell Facet Lock #2
+341,6,3,162.95,2.9,felt_piano,Z1,1,367.081,367.081,66,5:3,0.3627,0.6,S06 Felt Piano Answer
+342,6,3,163.04,1.45,concert_harp,Z1,2,367.081,367.081,66,120deg,0.38,0.44,S06 Honeycomb Cell Facet Lock #3
+343,6,3,163.56,1.45,concert_harp,Z1,3,440.4972,440.4972,69,120deg,0.38,0.56,S06 Honeycomb Cell Facet Lock #4
+344,6,3,164.08,1.45,concert_harp,Z1,0,489.4413,489.4413,71,120deg,0.38,0.68,S06 Honeycomb Cell Facet Lock #5
+345,6,3,164.6,1.45,concert_harp,Z1,1,293.6648,293.6648,62,120deg,0.38,0.8,S06 Honeycomb Cell Facet Lock #6
+346,6,3,165.12,1.45,concert_harp,Z1,2,660.7457,660.7457,76,120deg,0.38,0.2,S06 Honeycomb Cell Facet Lock #7
+347,6,3,165.64,1.45,concert_harp,Z1,3,734.1619,734.1619,78,120deg,0.38,0.32,S06 Honeycomb Cell Facet Lock #8
+348,6,3,166.0,6.8,quartz_bowl,Z2,12,293.6648,293.6648,62,5:3,0.44,0.48,S06 HEXAD Natural Culmination Bowl
+349,6,3,166.0,4.35,sub_pedal,Z1,0,73.4162,73.4162,38,5:3,0.5339,0.5,S06 Sub-Pedal Breath
+350,6,3,166.06,4.1,glass_pad,Z1,0,146.8324,146.8324,50,5:3,0.4177,0.34,S06 Glass Breath L
+351,6,3,166.12,4.1,glass_pad,Z1,2,293.6648,293.6648,62,5:3,0.3816,0.66,S06 Glass Breath R
+352,6,3,166.16,1.45,concert_harp,Z1,0,880.9943,880.9943,81,120deg,0.38,0.44,S06 Honeycomb Cell Facet Lock #9
+353,6,3,166.68,1.45,concert_harp,Z1,1,978.8826,978.8826,83,120deg,0.38,0.56,S06 Honeycomb Cell Facet Lock #10
+354,6,3,167.2,1.45,concert_harp,Z1,2,587.3295,587.3295,74,120deg,0.38,0.68,S06 Honeycomb Cell Facet Lock #11
+355,6,3,167.72,1.45,concert_harp,Z1,3,660.7457,660.7457,76,120deg,0.38,0.8,S06 Honeycomb Cell Facet Lock #12
+356,6,3,170.0,4.35,sub_pedal,Z1,1,73.4162,73.4162,38,5:3,0.5281,0.5,S06 Sub-Pedal Breath
+357,6,3,170.06,4.1,glass_pad,Z1,0,220.2486,220.2486,57,5:3,0.4124,0.34,S06 Glass Breath L
+358,6,3,170.12,4.1,glass_pad,Z1,2,367.081,367.081,66,5:3,0.3767,0.66,S06 Glass Breath R
+359,6,3,170.14,2.35,concert_harp,Z2,12,660.7457,660.7457,76,5:3,0.4611,0.22,S06 Beat-C Nature Harp Bloom #1
+360,6,3,170.59,2.35,concert_harp,Z2,13,587.3295,587.3295,74,5:3,0.4611,0.3,S06 Beat-C Nature Harp Bloom #2
+361,6,3,171.04,2.35,concert_harp,Z2,14,440.4972,440.4972,69,5:3,0.4611,0.38,S06 Beat-C Nature Harp Bloom #3
+362,6,3,171.49,2.35,concert_harp,Z2,15,367.081,367.081,66,5:3,0.4611,0.46,S06 Beat-C Nature Harp Bloom #4
+363,6,3,171.94,2.35,concert_harp,Z2,16,330.3729,330.3729,64,5:3,0.4611,0.54,S06 Beat-C Nature Harp Bloom #5
+364,6,3,172.39,2.35,concert_harp,Z2,17,293.6648,293.6648,62,5:3,0.4611,0.62,S06 Beat-C Nature Harp Bloom #6
+365,6,3,172.84,2.35,concert_harp,Z2,18,220.2486,220.2486,57,5:3,0.4611,0.7,S06 Beat-C Nature Harp Bloom #7
+366,6,3,173.29,2.35,concert_harp,Z2,19,146.8324,146.8324,50,5:3,0.4611,0.78,S06 Beat-C Nature Harp Bloom #8
+367,6,3,174.0,4.35,sub_pedal,Z1,2,73.4162,73.4162,38,5:3,0.5171,0.5,S06 Sub-Pedal Breath
+368,6,3,174.06,4.1,glass_pad,Z1,0,146.8324,146.8324,50,5:3,0.4023,0.34,S06 Glass Breath L
+369,6,3,174.12,4.1,glass_pad,Z1,2,293.6648,293.6648,62,5:3,0.3676,0.66,S06 Glass Breath R
+370,6,3,174.14,2.35,concert_harp,Z2,12,146.8324,146.8324,50,5:3,0.4528,0.22,S06 Beat-C Nature Harp Bloom #1
+371,6,3,174.59,2.35,concert_harp,Z2,13,220.2486,220.2486,57,5:3,0.4528,0.3,S06 Beat-C Nature Harp Bloom #2
+372,6,3,175.04,2.35,concert_harp,Z2,14,293.6648,293.6648,62,5:3,0.4528,0.38,S06 Beat-C Nature Harp Bloom #3
+373,6,3,175.49,2.35,concert_harp,Z2,15,330.3729,330.3729,64,5:3,0.4528,0.46,S06 Beat-C Nature Harp Bloom #4
+374,6,3,175.94,2.35,concert_harp,Z2,16,367.081,367.081,66,5:3,0.4528,0.54,S06 Beat-C Nature Harp Bloom #5
+375,6,3,176.39,2.35,concert_harp,Z2,17,440.4972,440.4972,69,5:3,0.4528,0.62,S06 Beat-C Nature Harp Bloom #6
+376,6,3,176.84,2.35,concert_harp,Z2,18,587.3295,587.3295,74,5:3,0.4528,0.7,S06 Beat-C Nature Harp Bloom #7
+377,6,3,177.29,2.35,concert_harp,Z2,19,660.7457,660.7457,76,5:3,0.4528,0.78,S06 Beat-C Nature Harp Bloom #8
+378,7,4,180.0,4.35,sub_pedal,Z1,0,91.7702,91.7702,42,7-Tone,0.5025,0.5,S07 Sub-Pedal Breath
+379,7,4,180.06,4.1,glass_pad,Z1,0,183.5405,183.5405,54,7-Tone,0.3889,0.34,S07 Glass Breath L
+380,7,4,180.08,7.6,quartz_bowl,ALL,0,367.081,367.081,66,7-Tone,0.52,0.5,S07 HEPTAD Arrival Bowl (7-Tone)
+381,7,4,180.12,4.1,glass_pad,Z1,2,330.3729,330.3729,64,7-Tone,0.3554,0.66,S07 Glass Breath R
+382,7,4,181.4,0.92,straightedge_ray,Z2,0,293.6648,440.4972,69,1/7,0.48,0.2,S07 Web of Athena Heptagram Chord #1/7
+383,7,4,182.28,1.9,vertex_lock,Z2,0,587.3295,587.3295,74,1/7,0.52,0.2,S07 Heptad Vertex #1/7 Chime
+384,7,4,182.38,0.92,straightedge_ray,Z2,3,330.3729,495.5593,71,2/7,0.48,0.3,S07 Web of Athena Heptagram Chord #2/7
+385,7,4,183.26,1.9,vertex_lock,Z2,3,660.7457,660.7457,76,2/7,0.52,0.3,S07 Heptad Vertex #2/7 Chime
+386,7,4,183.36,0.92,straightedge_ray,Z2,6,367.081,550.6214,73,3/7,0.48,0.4,S07 Web of Athena Heptagram Chord #3/7
+387,7,4,184.0,4.35,sub_pedal,Z1,1,91.7702,91.7702,42,7-Tone,0.5071,0.5,S07 Sub-Pedal Breath
+388,7,4,184.06,4.1,glass_pad,Z1,0,220.2486,220.2486,57,7-Tone,0.3932,0.34,S07 Glass Breath L
+389,7,4,184.12,4.1,glass_pad,Z1,2,440.4972,440.4972,69,7-Tone,0.3592,0.66,S07 Glass Breath R
+390,7,4,184.24,1.9,vertex_lock,Z2,6,734.1619,734.1619,78,3/7,0.52,0.4,S07 Heptad Vertex #3/7 Chime
+391,7,4,184.34,0.92,straightedge_ray,Z2,9,391.553,587.3295,74,4/7,0.48,0.5,S07 Web of Athena Heptagram Chord #4/7
+392,7,4,184.45,3.1,felt_piano,Z1,1,275.3107,275.3107,61,7-Tone,0.3775,0.4,S07 Felt Piano Contemplation
+393,7,4,184.95,2.9,felt_piano,Z1,1,367.081,367.081,66,7-Tone,0.3475,0.6,S07 Felt Piano Answer
+394,7,4,185.22,1.9,vertex_lock,Z2,9,783.106,783.106,79,4/7,0.52,0.5,S07 Heptad Vertex #4/7 Chime
+395,7,4,185.32,0.92,straightedge_ray,Z2,12,440.4972,660.7457,76,5/7,0.48,0.6,S07 Web of Athena Heptagram Chord #5/7
+396,7,4,186.2,1.9,vertex_lock,Z2,12,880.9943,880.9943,81,5/7,0.52,0.6,S07 Heptad Vertex #5/7 Chime
+397,7,4,186.3,0.92,straightedge_ray,Z2,15,489.4413,734.1619,78,6/7,0.48,0.7,S07 Web of Athena Heptagram Chord #6/7
+398,7,4,187.18,1.9,vertex_lock,Z2,15,978.8826,978.8826,83,6/7,0.52,0.7,S07 Heptad Vertex #6/7 Chime
+399,7,4,187.28,0.92,straightedge_ray,Z2,18,550.6214,825.9322,80,7/7,0.48,0.8,S07 Web of Athena Heptagram Chord #7/7
+400,7,4,188.0,4.35,sub_pedal,Z1,2,91.7702,91.7702,42,7-Tone,0.5161,0.5,S07 Sub-Pedal Breath
+401,7,4,188.06,4.1,glass_pad,Z1,0,183.5405,183.5405,54,7-Tone,0.4014,0.34,S07 Glass Breath L
+402,7,4,188.12,4.1,glass_pad,Z1,2,330.3729,330.3729,64,7-Tone,0.3668,0.66,S07 Glass Breath R
+403,7,4,188.16,1.9,vertex_lock,Z2,18,1101.2429,1101.2429,85,7/7,0.52,0.8,S07 Heptad Vertex #7/7 Chime
+404,7,4,190.4,2.8,harmonic_pluck,Z3,1,146.8324,146.8324,50,1:1,0.62,0.18,S07 Monochord Overtone 1f & Prism Ray: Red (1f)
+405,7,4,191.58,2.8,harmonic_pluck,Z3,2,293.6648,293.6648,62,2:1,0.62,0.2867,S07 Monochord Overtone 2f & Prism Ray: Orange (2f)
+406,7,4,192.0,4.35,sub_pedal,Z1,3,91.7702,91.7702,42,7-Tone,0.5208,0.5,S07 Sub-Pedal Breath
+407,7,4,192.06,4.1,glass_pad,Z1,0,220.2486,220.2486,57,7-Tone,0.4057,0.34,S07 Glass Breath L
+408,7,4,192.12,4.1,glass_pad,Z1,2,440.4972,440.4972,69,7-Tone,0.3707,0.66,S07 Glass Breath R
+409,7,4,192.45,3.1,felt_piano,Z1,1,275.3107,275.3107,61,7-Tone,0.3855,0.4,S07 Felt Piano Contemplation
+410,7,4,192.76,2.8,harmonic_pluck,Z3,3,440.4972,440.4972,69,3:1,0.62,0.3933,S07 Monochord Overtone 3f & Prism Ray: Gold (3f)
+411,7,4,192.95,2.9,felt_piano,Z1,1,367.081,367.081,66,7-Tone,0.3555,0.6,S07 Felt Piano Answer
+412,7,4,193.94,2.8,harmonic_pluck,Z3,4,587.3295,587.3295,74,4:1,0.62,0.5,S07 Monochord Overtone 4f & Prism Ray: Emerald (4f)
+413,7,4,195.12,2.8,harmonic_pluck,Z3,5,734.1619,734.1619,78,5:1,0.62,0.6067,S07 Monochord Overtone 5f & Prism Ray: Cyan (5f)
+414,7,4,196.0,6.8,tibetan_bell,Z2,14,391.553,391.553,67,7-Tone,0.44,0.48,S07 HEPTAD Natural Culmination Bowl
+415,7,4,196.0,4.35,sub_pedal,Z1,0,48.9441,48.9441,31,7-Tone,0.5197,0.5,S07 Sub-Pedal Breath
+416,7,4,196.06,4.1,glass_pad,Z1,0,97.8883,97.8883,43,7-Tone,0.4047,0.34,S07 Glass Breath L
+417,7,4,196.12,4.1,glass_pad,Z1,2,244.7206,244.7206,59,7-Tone,0.3698,0.66,S07 Glass Breath R
+418,7,4,196.3,2.8,harmonic_pluck,Z3,6,880.9943,880.9943,81,6:1,0.62,0.7133,S07 Monochord Overtone 6f & Prism Ray: Indigo (6f)
+419,7,4,197.48,2.8,harmonic_pluck,Z3,7,1027.8267,1027.8267,84,7:1,0.62,0.82,S07 Monochord Overtone 7f & Prism Ray: Violet (7f)
+420,7,4,200.0,4.35,sub_pedal,Z1,1,48.9441,48.9441,31,7-Tone,0.5127,0.5,S07 Sub-Pedal Breath
+421,7,4,200.06,4.1,glass_pad,Z1,0,146.8324,146.8324,50,7-Tone,0.3983,0.34,S07 Glass Breath L
+422,7,4,200.12,4.1,glass_pad,Z1,2,367.081,367.081,66,7-Tone,0.364,0.66,S07 Glass Breath R
+423,7,4,200.14,2.35,concert_harp,Z2,14,440.4972,440.4972,69,7-Tone,0.4496,0.22,S07 Beat-C Nature Harp Bloom #1
+424,7,4,200.59,2.35,concert_harp,Z2,15,391.553,391.553,67,7-Tone,0.4496,0.3,S07 Beat-C Nature Harp Bloom #2
+425,7,4,201.04,2.35,concert_harp,Z2,16,367.081,367.081,66,7-Tone,0.4496,0.38,S07 Beat-C Nature Harp Bloom #3
+426,7,4,201.49,2.35,concert_harp,Z2,17,293.6648,293.6648,62,7-Tone,0.4496,0.46,S07 Beat-C Nature Harp Bloom #4
+427,7,4,201.94,2.35,concert_harp,Z2,18,244.7206,244.7206,59,7-Tone,0.4496,0.54,S07 Beat-C Nature Harp Bloom #5
+428,7,4,202.39,2.35,concert_harp,Z2,19,220.2486,220.2486,57,7-Tone,0.4496,0.62,S07 Beat-C Nature Harp Bloom #6
+429,7,4,202.84,2.35,concert_harp,Z2,0,146.8324,146.8324,50,7-Tone,0.4496,0.7,S07 Beat-C Nature Harp Bloom #7
+430,7,4,203.29,2.35,concert_harp,Z2,1,97.8883,97.8883,43,7-Tone,0.4496,0.78,S07 Beat-C Nature Harp Bloom #8
+431,7,4,204.0,4.35,sub_pedal,Z1,2,48.9441,48.9441,31,7-Tone,0.5011,0.5,S07 Sub-Pedal Breath
+432,7,4,204.06,4.1,glass_pad,Z1,0,97.8883,97.8883,43,7-Tone,0.3877,0.34,S07 Glass Breath L
+433,7,4,204.12,4.1,glass_pad,Z1,2,244.7206,244.7206,59,7-Tone,0.3543,0.66,S07 Glass Breath R
+434,7,4,204.14,2.35,concert_harp,Z2,14,97.8883,97.8883,43,7-Tone,0.4408,0.22,S07 Beat-C Nature Harp Bloom #1
+435,7,4,204.59,2.35,concert_harp,Z2,15,146.8324,146.8324,50,7-Tone,0.4408,0.3,S07 Beat-C Nature Harp Bloom #2
+436,7,4,205.04,2.35,concert_harp,Z2,16,220.2486,220.2486,57,7-Tone,0.4408,0.38,S07 Beat-C Nature Harp Bloom #3
+437,7,4,205.49,2.35,concert_harp,Z2,17,244.7206,244.7206,59,7-Tone,0.4408,0.46,S07 Beat-C Nature Harp Bloom #4
+438,7,4,205.94,2.35,concert_harp,Z2,18,293.6648,293.6648,62,7-Tone,0.4408,0.54,S07 Beat-C Nature Harp Bloom #5
+439,7,4,206.39,2.35,concert_harp,Z2,19,367.081,367.081,66,7-Tone,0.4408,0.62,S07 Beat-C Nature Harp Bloom #6
+440,7,4,206.84,2.35,concert_harp,Z2,0,391.553,391.553,67,7-Tone,0.4408,0.7,S07 Beat-C Nature Harp Bloom #7
+441,7,4,207.29,2.35,concert_harp,Z2,1,440.4972,440.4972,69,7-Tone,0.4408,0.78,S07 Beat-C Nature Harp Bloom #8
+442,8,4,210.0,4.35,sub_pedal,Z1,0,55.0621,55.0621,33,2:1,0.4856,0.5,S08 Sub-Pedal Breath
+443,8,4,210.06,4.1,glass_pad,Z1,0,110.1243,110.1243,45,2:1,0.3735,0.34,S08 Glass Breath L
+444,8,4,210.08,7.6,tibetan_bell,ALL,0,440.4972,440.4972,69,2:1,0.52,0.5,S08 OCTAD Arrival Bowl (2:1)
+445,8,4,210.12,4.1,glass_pad,Z1,2,293.6648,293.6648,62,2:1,0.3414,0.66,S08 Glass Breath R
+446,8,4,210.8,5.2,harmonic_pluck,ALL,0,293.6648,587.3295,74,2:1,0.72,0.5,S08 7->8 Sympathetic 2:1 Octave Resonance Lock!
+447,8,4,213.0,3.2,compass_arc,Z2,0,293.6648,587.3295,74,2:1,0.56,0.45,S08 45-Deg Dual-Square Rotation into {8/2} Octagram
+448,8,4,214.0,4.35,sub_pedal,Z1,1,55.0621,55.0621,33,2:1,0.4882,0.5,S08 Sub-Pedal Breath
+449,8,4,214.06,4.1,glass_pad,Z1,0,165.1864,165.1864,52,2:1,0.3759,0.34,S08 Glass Breath L
+450,8,4,214.12,4.1,glass_pad,Z1,2,440.4972,440.4972,69,2:1,0.3435,0.66,S08 Glass Breath R
+451,8,4,214.45,3.1,felt_piano,Z1,1,220.2486,220.2486,57,2:1,0.3665,0.4,S08 Felt Piano Contemplation
+452,8,4,214.95,2.9,felt_piano,Z1,1,330.3729,330.3729,64,2:1,0.3365,0.6,S08 Felt Piano Answer
+453,8,4,216.3,2.8,compass_arc,Z1,1,440.4972,587.3295,74,4s=2piR,0.58,0.55,S08 Equal-Perimeter Squaring of the Circle Lock!
+454,8,4,218.0,4.35,sub_pedal,Z1,2,55.0621,55.0621,33,2:1,0.4946,0.5,S08 Sub-Pedal Breath
+455,8,4,218.06,4.1,glass_pad,Z1,0,110.1243,110.1243,45,2:1,0.3817,0.34,S08 Glass Breath L
+456,8,4,218.12,4.1,glass_pad,Z1,2,293.6648,293.6648,62,2:1,0.3488,0.66,S08 Glass Breath R
+457,8,4,220.4,2.1,concert_harp,Z2,0,293.6648,293.6648,62,2:1,0.46,0.18,S08 Chladni 8-Fold Nodal Spoke & Breath Star #1/8
+458,8,4,221.45,2.1,concert_harp,Z2,2,330.3729,330.3729,64,2:1,0.46,0.2714,S08 Chladni 8-Fold Nodal Spoke & Breath Star #2/8
+459,8,4,222.0,4.35,sub_pedal,Z1,3,55.0621,55.0621,33,2:1,0.4969,0.5,S08 Sub-Pedal Breath
+460,8,4,222.06,4.1,glass_pad,Z1,0,165.1864,165.1864,52,2:1,0.3839,0.34,S08 Glass Breath L
+461,8,4,222.12,4.1,glass_pad,Z1,2,440.4972,440.4972,69,2:1,0.3508,0.66,S08 Glass Breath R
+462,8,4,222.45,3.1,felt_piano,Z1,1,220.2486,220.2486,57,2:1,0.3716,0.4,S08 Felt Piano Contemplation
+463,8,4,222.5,2.1,concert_harp,Z2,4,367.081,367.081,66,2:1,0.46,0.3629,S08 Chladni 8-Fold Nodal Spoke & Breath Star #3/8
+464,8,4,222.95,2.9,felt_piano,Z1,1,330.3729,330.3729,64,2:1,0.3416,0.6,S08 Felt Piano Answer
+465,8,4,223.55,2.1,concert_harp,Z2,6,391.553,391.553,67,2:1,0.46,0.4543,S08 Chladni 8-Fold Nodal Spoke & Breath Star #4/8
+466,8,4,224.6,2.1,concert_harp,Z2,8,440.4972,440.4972,69,2:1,0.46,0.5457,S08 Chladni 8-Fold Nodal Spoke & Breath Star #5/8
+467,8,4,225.65,2.1,concert_harp,Z2,10,489.4413,489.4413,71,2:1,0.46,0.6371,S08 Chladni 8-Fold Nodal Spoke & Breath Star #6/8
+468,8,4,226.0,6.8,quartz_bowl,Z2,16,293.6648,293.6648,62,2:1,0.44,0.48,S08 OCTAD Natural Culmination Bowl
+469,8,4,226.0,4.35,sub_pedal,Z1,0,73.4162,73.4162,38,2:1,0.4942,0.5,S08 Sub-Pedal Breath
+470,8,4,226.06,4.1,glass_pad,Z1,0,146.8324,146.8324,50,2:1,0.3814,0.34,S08 Glass Breath L
+471,8,4,226.12,4.1,glass_pad,Z1,2,293.6648,293.6648,62,2:1,0.3485,0.66,S08 Glass Breath R
+472,8,4,226.7,2.1,concert_harp,Z2,12,550.6214,550.6214,73,2:1,0.46,0.7286,S08 Chladni 8-Fold Nodal Spoke & Breath Star #7/8
+473,8,4,227.75,2.1,concert_harp,Z2,14,587.3295,587.3295,74,2:1,0.46,0.82,S08 Chladni 8-Fold Nodal Spoke & Breath Star #8/8
+474,8,4,230.0,4.35,sub_pedal,Z1,1,73.4162,73.4162,38,2:1,0.4864,0.5,S08 Sub-Pedal Breath
+475,8,4,230.06,4.1,glass_pad,Z1,0,220.2486,220.2486,57,2:1,0.3742,0.34,S08 Glass Breath L
+476,8,4,230.12,4.1,glass_pad,Z1,2,367.081,367.081,66,2:1,0.342,0.66,S08 Glass Breath R
+477,8,4,230.14,2.35,concert_harp,Z2,16,660.7457,660.7457,76,2:1,0.4298,0.22,S08 Beat-C Nature Harp Bloom #1
+478,8,4,230.59,2.35,concert_harp,Z2,17,587.3295,587.3295,74,2:1,0.4298,0.3,S08 Beat-C Nature Harp Bloom #2
+479,8,4,231.04,2.35,concert_harp,Z2,18,440.4972,440.4972,69,2:1,0.4298,0.38,S08 Beat-C Nature Harp Bloom #3
+480,8,4,231.49,2.35,concert_harp,Z2,19,367.081,367.081,66,2:1,0.4298,0.46,S08 Beat-C Nature Harp Bloom #4
+481,8,4,231.94,2.35,concert_harp,Z2,0,330.3729,330.3729,64,2:1,0.4298,0.54,S08 Beat-C Nature Harp Bloom #5
+482,8,4,232.39,2.35,concert_harp,Z2,1,293.6648,293.6648,62,2:1,0.4298,0.62,S08 Beat-C Nature Harp Bloom #6
+483,8,4,232.84,2.35,concert_harp,Z2,2,220.2486,220.2486,57,2:1,0.4298,0.7,S08 Beat-C Nature Harp Bloom #7
+484,8,4,233.29,2.35,concert_harp,Z2,3,146.8324,146.8324,50,2:1,0.4298,0.78,S08 Beat-C Nature Harp Bloom #8
+485,8,4,234.0,4.35,sub_pedal,Z1,2,73.4162,73.4162,38,2:1,0.4748,0.5,S08 Sub-Pedal Breath
+486,8,4,234.06,4.1,glass_pad,Z1,0,146.8324,146.8324,50,2:1,0.3636,0.34,S08 Glass Breath L
+487,8,4,234.12,4.1,glass_pad,Z1,2,293.6648,293.6648,62,2:1,0.3324,0.66,S08 Glass Breath R
+488,8,4,234.14,2.35,concert_harp,Z2,16,146.8324,146.8324,50,2:1,0.4211,0.22,S08 Beat-C Nature Harp Bloom #1
+489,8,4,234.59,2.35,concert_harp,Z2,17,220.2486,220.2486,57,2:1,0.4211,0.3,S08 Beat-C Nature Harp Bloom #2
+490,8,4,235.04,2.35,concert_harp,Z2,18,293.6648,293.6648,62,2:1,0.4211,0.38,S08 Beat-C Nature Harp Bloom #3
+491,8,4,235.49,2.35,concert_harp,Z2,19,330.3729,330.3729,64,2:1,0.4211,0.46,S08 Beat-C Nature Harp Bloom #4
+492,8,4,235.94,2.35,concert_harp,Z2,0,367.081,367.081,66,2:1,0.4211,0.54,S08 Beat-C Nature Harp Bloom #5
+493,8,4,236.39,2.35,concert_harp,Z2,1,440.4972,440.4972,69,2:1,0.4211,0.62,S08 Beat-C Nature Harp Bloom #6
+494,8,4,236.84,2.35,concert_harp,Z2,2,587.3295,587.3295,74,2:1,0.4211,0.7,S08 Beat-C Nature Harp Bloom #7
+495,8,4,237.29,2.35,concert_harp,Z2,3,660.7457,660.7457,76,2:1,0.4211,0.78,S08 Beat-C Nature Harp Bloom #8
+496,9,5,240.0,4.35,sub_pedal,Z1,0,61.1802,61.1802,35,9:8,0.4594,0.5,S09 Sub-Pedal Breath
+497,9,5,240.06,4.1,glass_pad,Z1,0,122.3603,122.3603,47,9:8,0.3495,0.34,S09 Glass Breath L
+498,9,5,240.08,7.6,quartz_bowl,ALL,0,489.4413,489.4413,71,9:8,0.52,0.5,S09 ENNEAD Arrival Bowl (9:8)
+499,9,5,240.12,4.1,glass_pad,Z1,2,293.6648,293.6648,62,9:8,0.3195,0.66,S09 Glass Breath R
+500,9,5,241.0,2.2,coffer_step,Z3,1,391.553,391.553,67,9:8,0.58,0.3,S09 Z3 Coffer #2 Lo Shu Magic Square Step 4 (Sum=15)
+501,9,5,241.92,2.2,coffer_step,Z3,2,660.7457,660.7457,76,9:8,0.58,0.5,S09 Z3 Coffer #3 Lo Shu Magic Square Step 9 (Sum=15)
+502,9,5,242.84,2.2,coffer_step,Z3,3,330.3729,330.3729,64,9:8,0.58,0.7,S09 Z3 Coffer #4 Lo Shu Magic Square Step 2 (Sum=15)
+503,9,5,243.76,2.2,coffer_step,Z3,8,367.081,367.081,66,9:8,0.58,0.28,S09 Z3 Coffer #9 Lo Shu Magic Square Step 3 (Sum=15)
+504,9,5,244.0,4.35,sub_pedal,Z1,1,61.1802,61.1802,35,9:8,0.4597,0.5,S09 Sub-Pedal Breath
+505,9,5,244.06,4.1,glass_pad,Z1,0,183.5405,183.5405,54,9:8,0.3498,0.34,S09 Glass Breath L
+506,9,5,244.12,4.1,glass_pad,Z1,2,440.4972,440.4972,69,9:8,0.3198,0.66,S09 Glass Breath R
+507,9,5,244.45,3.1,felt_piano,Z1,1,220.2486,220.2486,57,9:8,0.3499,0.4,S09 Felt Piano Contemplation
+508,9,5,244.68,2.2,coffer_step,Z3,0,440.4972,440.4972,69,9:8,0.58,0.5,S09 Z3 Coffer #1 Lo Shu Magic Square Step 5 (Sum=15)
+509,9,5,244.95,2.9,felt_piano,Z1,1,440.4972,440.4972,69,9:8,0.3199,0.6,S09 Felt Piano Answer
+510,9,5,245.6,2.2,coffer_step,Z3,4,550.6214,550.6214,73,9:8,0.58,0.72,S09 Z3 Coffer #5 Lo Shu Magic Square Step 7 (Sum=15)
+511,9,5,246.52,2.2,coffer_step,Z3,7,587.3295,587.3295,74,9:8,0.58,0.3,S09 Z3 Coffer #8 Lo Shu Magic Square Step 8 (Sum=15)
+512,9,5,247.44,2.2,coffer_step,Z3,6,293.6648,293.6648,62,9:8,0.58,0.5,S09 Z3 Coffer #7 Lo Shu Magic Square Step 1 (Sum=15)
+513,9,5,248.0,4.35,sub_pedal,Z1,2,61.1802,61.1802,35,9:8,0.463,0.5,S09 Sub-Pedal Breath
+514,9,5,248.06,4.1,glass_pad,Z1,0,122.3603,122.3603,47,9:8,0.3527,0.34,S09 Glass Breath L
+515,9,5,248.12,4.1,glass_pad,Z1,2,293.6648,293.6648,62,9:8,0.3225,0.66,S09 Glass Breath R
+516,9,5,248.36,2.2,coffer_step,Z3,5,489.4413,489.4413,71,9:8,0.58,0.7,S09 Z3 Coffer #6 Lo Shu Magic Square Step 6 (Sum=15)
+517,9,5,250.5,2.3,straightedge_ray,Z2,0,293.6648,440.4972,69,9:8,0.5,0.26,S09 Sri Yantra Interlocking Triangle #1/9
+518,9,5,250.74,2.3,straightedge_ray,Z2,2,330.3729,495.5593,71,9:8,0.5,0.5,S09 Sri Yantra Interlocking Triangle #2/9
+519,9,5,250.98,2.3,straightedge_ray,Z2,4,367.081,550.6214,73,9:8,0.5,0.74,S09 Sri Yantra Interlocking Triangle #3/9
+520,9,5,252.0,4.35,sub_pedal,Z1,3,61.1802,61.1802,35,9:8,0.4629,0.5,S09 Sub-Pedal Breath
+521,9,5,252.06,4.1,glass_pad,Z1,0,183.5405,183.5405,54,9:8,0.3526,0.34,S09 Glass Breath L
+522,9,5,252.12,4.1,glass_pad,Z1,2,440.4972,440.4972,69,9:8,0.3224,0.66,S09 Glass Breath R
+523,9,5,252.45,3.1,felt_piano,Z1,1,220.2486,220.2486,57,9:8,0.3517,0.4,S09 Felt Piano Contemplation
+524,9,5,252.95,2.9,felt_piano,Z1,1,440.4972,440.4972,69,9:8,0.3217,0.6,S09 Felt Piano Answer
+525,9,5,252.95,2.3,straightedge_ray,Z2,6,391.553,587.3295,74,9:8,0.5,0.26,S09 Sri Yantra Interlocking Triangle #4/9
+526,9,5,253.19,2.3,straightedge_ray,Z2,8,440.4972,660.7457,76,9:8,0.5,0.5,S09 Sri Yantra Interlocking Triangle #5/9
+527,9,5,253.43,2.3,straightedge_ray,Z2,10,489.4413,734.1619,78,9:8,0.5,0.74,S09 Sri Yantra Interlocking Triangle #6/9
+528,9,5,255.4,2.3,straightedge_ray,Z2,12,550.6214,825.9322,80,9:8,0.5,0.26,S09 Sri Yantra Interlocking Triangle #7/9
+529,9,5,255.64,2.3,straightedge_ray,Z2,14,587.3295,880.9943,81,9:8,0.5,0.5,S09 Sri Yantra Interlocking Triangle #8/9
+530,9,5,255.88,2.3,straightedge_ray,Z2,16,660.7457,991.1186,83,9:8,0.5,0.74,S09 Sri Yantra Interlocking Triangle #9/9
+531,9,5,256.0,6.8,tibetan_bell,Z2,18,440.4972,440.4972,69,9:8,0.44,0.48,S09 ENNEAD Natural Culmination Bowl
+532,9,5,256.0,4.35,sub_pedal,Z1,0,55.0621,55.0621,33,9:8,0.459,0.5,S09 Sub-Pedal Breath
+533,9,5,256.06,4.1,glass_pad,Z1,0,110.1243,110.1243,45,9:8,0.3491,0.34,S09 Glass Breath L
+534,9,5,256.12,4.1,glass_pad,Z1,2,293.6648,293.6648,62,9:8,0.3192,0.66,S09 Glass Breath R
+535,9,5,258.2,3.6,vertex_lock,ALL,0,660.7457,660.7457,76,43-Tri,0.68,0.5,S09 Sri Yantra 43-Triangle Bindu & 9-Turn Labyrinth Center Lock!
+536,9,5,260.0,4.35,sub_pedal,Z1,1,55.0621,55.0621,33,9:8,0.4521,0.5,S09 Sub-Pedal Breath
+537,9,5,260.06,4.1,glass_pad,Z1,0,165.1864,165.1864,52,9:8,0.3427,0.34,S09 Glass Breath L
+538,9,5,260.12,4.1,glass_pad,Z1,2,440.4972,440.4972,69,9:8,0.3134,0.66,S09 Glass Breath R
+539,9,5,260.14,2.35,concert_harp,Z2,18,489.4413,489.4413,71,9:8,0.4041,0.22,S09 Beat-C Nature Harp Bloom #1
+540,9,5,260.59,2.35,concert_harp,Z2,19,440.4972,440.4972,69,9:8,0.4041,0.3,S09 Beat-C Nature Harp Bloom #2
+541,9,5,261.04,2.35,concert_harp,Z2,0,330.3729,330.3729,64,9:8,0.4041,0.38,S09 Beat-C Nature Harp Bloom #3
+542,9,5,261.49,2.35,concert_harp,Z2,1,293.6648,293.6648,62,9:8,0.4041,0.46,S09 Beat-C Nature Harp Bloom #4
+543,9,5,261.94,2.35,concert_harp,Z2,2,244.7206,244.7206,59,9:8,0.4041,0.54,S09 Beat-C Nature Harp Bloom #5
+544,9,5,262.39,2.35,concert_harp,Z2,3,220.2486,220.2486,57,9:8,0.4041,0.62,S09 Beat-C Nature Harp Bloom #6
+545,9,5,262.84,2.35,concert_harp,Z2,4,165.1864,165.1864,52,9:8,0.4041,0.7,S09 Beat-C Nature Harp Bloom #7
+546,9,5,263.29,2.35,concert_harp,Z2,5,110.1243,110.1243,45,9:8,0.4041,0.78,S09 Beat-C Nature Harp Bloom #8
+547,9,5,264.0,4.35,sub_pedal,Z1,2,55.0621,55.0621,33,9:8,0.4437,0.5,S09 Sub-Pedal Breath
+548,9,5,264.06,4.1,glass_pad,Z1,0,110.1243,110.1243,45,9:8,0.3351,0.34,S09 Glass Breath L
+549,9,5,264.12,4.1,glass_pad,Z1,2,293.6648,293.6648,62,9:8,0.3065,0.66,S09 Glass Breath R
+550,9,5,264.14,2.35,concert_harp,Z2,18,110.1243,110.1243,45,9:8,0.3978,0.22,S09 Beat-C Nature Harp Bloom #1
+551,9,5,264.59,2.35,concert_harp,Z2,19,165.1864,165.1864,52,9:8,0.3978,0.3,S09 Beat-C Nature Harp Bloom #2
+552,9,5,265.04,2.35,concert_harp,Z2,0,220.2486,220.2486,57,9:8,0.3978,0.38,S09 Beat-C Nature Harp Bloom #3
+553,9,5,265.49,2.35,concert_harp,Z2,1,244.7206,244.7206,59,9:8,0.3978,0.46,S09 Beat-C Nature Harp Bloom #4
+554,9,5,265.94,2.35,concert_harp,Z2,2,293.6648,293.6648,62,9:8,0.3978,0.54,S09 Beat-C Nature Harp Bloom #5
+555,9,5,266.39,2.35,concert_harp,Z2,3,330.3729,330.3729,64,9:8,0.3978,0.62,S09 Beat-C Nature Harp Bloom #6
+556,9,5,266.84,2.35,concert_harp,Z2,4,440.4972,440.4972,69,9:8,0.3978,0.7,S09 Beat-C Nature Harp Bloom #7
+557,9,5,267.29,2.35,concert_harp,Z2,5,489.4413,489.4413,71,9:8,0.3978,0.78,S09 Beat-C Nature Harp Bloom #8
+558,10,5,270.0,4.35,sub_pedal,Z1,0,48.9441,48.9441,31,10:1,0.4366,0.5,S10 Sub-Pedal Breath
+559,10,5,270.06,4.1,glass_pad,Z1,0,97.8883,97.8883,43,10:1,0.3285,0.34,S10 Glass Breath L
+560,10,5,270.08,7.6,tibetan_bell,ALL,0,391.553,391.553,67,10:1,0.52,0.5,S10 DECAD Arrival Bowl (10:1)
+561,10,5,270.12,4.1,glass_pad,Z1,2,244.7206,244.7206,59,10:1,0.3005,0.66,S10 Glass Breath R
+562,10,5,271.0,2.8,tetractys_pearl,ALL,0,587.3295,587.3295,74,1:2:3:4,0.64,0.5,S10 Tetractys Pearl #1/10 — Row 1 (Monad 1): Point / Unison
+563,10,5,272.7,2.8,tetractys_pearl,ALL,1,293.6648,293.6648,62,1:2:3:4,0.64,0.4,S10 Tetractys Pearl #2/10 — Row 2 (Dyad 2a): Octave Root
+564,10,5,273.15,2.8,tetractys_pearl,ALL,2,587.3295,587.3295,74,1:2:3:4,0.64,0.6,S10 Tetractys Pearl #3/10 — Row 2 (Dyad 2b): 2:1 Octave
+565,10,5,274.0,4.35,sub_pedal,Z1,1,48.9441,48.9441,31,10:1,0.4427,0.5,S10 Sub-Pedal Breath
+566,10,5,274.06,4.1,glass_pad,Z1,0,146.8324,146.8324,50,10:1,0.3342,0.34,S10 Glass Breath L
+567,10,5,274.12,4.1,glass_pad,Z1,2,367.081,367.081,66,10:1,0.3056,0.66,S10 Glass Breath R
+568,10,5,274.45,3.1,felt_piano,Z1,1,220.2486,220.2486,57,10:1,0.3399,0.4,S10 Felt Piano Contemplation
+569,10,5,274.55,2.8,tetractys_pearl,ALL,3,293.6648,293.6648,62,1:2:3:4,0.64,0.34,S10 Tetractys Pearl #4/10 — Row 3 (Triad 3a)
+570,10,5,274.95,2.9,felt_piano,Z1,1,367.081,367.081,66,10:1,0.3099,0.6,S10 Felt Piano Answer
+571,10,5,274.95,2.8,tetractys_pearl,ALL,4,440.4972,440.4972,69,1:2:3:4,0.64,0.5,S10 Tetractys Pearl #5/10 — Row 3 (Triad 3b): 3:2 Fifth
+572,10,5,275.35,2.8,tetractys_pearl,ALL,5,880.9943,880.9943,81,1:2:3:4,0.64,0.66,S10 Tetractys Pearl #6/10 — Row 3 (Triad 3c)
+573,10,5,276.55,2.8,tetractys_pearl,ALL,6,293.6648,293.6648,62,1:2:3:4,0.64,0.26,S10 Tetractys Pearl #7/10 — Row 4 (Tetrad 4a)
+574,10,5,276.9,2.8,tetractys_pearl,ALL,7,391.553,391.553,67,1:2:3:4,0.64,0.42,S10 Tetractys Pearl #8/10 — Row 4 (Tetrad 4b): 4:3 Fourth
+575,10,5,277.25,2.8,tetractys_pearl,ALL,8,440.4972,440.4972,69,1:2:3:4,0.64,0.58,S10 Tetractys Pearl #9/10 — Row 4 (Tetrad 4c): 3:2 Fifth
+576,10,5,277.6,2.8,tetractys_pearl,ALL,9,1174.6591,1174.6591,86,1:2:3:4,0.64,0.74,S10 Tetractys Pearl #10/10 — Row 4 (Pearl #10): Complete Tetractys!
+577,10,5,278.0,4.35,sub_pedal,Z1,2,48.9441,48.9441,31,10:1,0.4518,0.5,S10 Sub-Pedal Breath
+578,10,5,278.06,4.1,glass_pad,Z1,0,97.8883,97.8883,43,10:1,0.3425,0.34,S10 Glass Breath L
+579,10,5,278.12,4.1,glass_pad,Z1,2,244.7206,244.7206,59,10:1,0.3132,0.66,S10 Glass Breath R
+580,10,5,279.8,5.4,compass_arc,ALL,1,293.6648,587.3295,74,Phi-DNA,0.58,0.5,S10 3D B-DNA Helix 90-Deg Tilt into {10/3} Golden Decagram!
+581,10,5,280.1,2.1,concert_harp,Z2,0,293.6648,293.6648,62,10-DNA,0.48,0.2,S10 B-DNA Base-Pair Rung #1/10 -> Decagram Point
+582,10,5,280.78,2.1,concert_harp,Z2,2,330.3729,330.3729,64,10-DNA,0.48,0.2667,S10 B-DNA Base-Pair Rung #2/10 -> Decagram Point
+583,10,5,281.46,2.1,concert_harp,Z2,4,367.081,367.081,66,10-DNA,0.48,0.3333,S10 B-DNA Base-Pair Rung #3/10 -> Decagram Point
+584,10,5,282.0,4.35,sub_pedal,Z1,3,48.9441,48.9441,31,10:1,0.4551,0.5,S10 Sub-Pedal Breath
+585,10,5,282.06,4.1,glass_pad,Z1,0,146.8324,146.8324,50,10:1,0.3455,0.34,S10 Glass Breath L
+586,10,5,282.12,4.1,glass_pad,Z1,2,367.081,367.081,66,10:1,0.3159,0.66,S10 Glass Breath R
+587,10,5,282.14,2.1,concert_harp,Z2,6,440.4972,440.4972,69,10-DNA,0.48,0.4,S10 B-DNA Base-Pair Rung #4/10 -> Decagram Point
+588,10,5,282.45,3.1,felt_piano,Z1,1,220.2486,220.2486,57,10:1,0.3471,0.4,S10 Felt Piano Contemplation
+589,10,5,282.82,2.1,concert_harp,Z2,8,489.4413,489.4413,71,10-DNA,0.48,0.4667,S10 B-DNA Base-Pair Rung #5/10 -> Decagram Point
+590,10,5,282.95,2.9,felt_piano,Z1,1,367.081,367.081,66,10:1,0.3171,0.6,S10 Felt Piano Answer
+591,10,5,283.5,2.1,concert_harp,Z2,10,587.3295,587.3295,74,10-DNA,0.48,0.5333,S10 B-DNA Base-Pair Rung #6/10 -> Decagram Point
+592,10,5,284.18,2.1,concert_harp,Z2,12,660.7457,660.7457,76,10-DNA,0.48,0.6,S10 B-DNA Base-Pair Rung #7/10 -> Decagram Point
+593,10,5,284.86,2.1,concert_harp,Z2,14,734.1619,734.1619,78,10-DNA,0.48,0.6667,S10 B-DNA Base-Pair Rung #8/10 -> Decagram Point
+594,10,5,285.54,2.1,concert_harp,Z2,16,880.9943,880.9943,81,10-DNA,0.48,0.7333,S10 B-DNA Base-Pair Rung #9/10 -> Decagram Point
+595,10,5,286.0,6.8,quartz_bowl,Z2,0,293.6648,293.6648,62,10:1,0.44,0.48,S10 DECAD Natural Culmination Bowl
+596,10,5,286.0,4.35,sub_pedal,Z1,0,73.4162,73.4162,38,10:1,0.4487,0.5,S10 Sub-Pedal Breath
+597,10,5,286.06,4.1,glass_pad,Z1,0,146.8324,146.8324,50,10:1,0.3396,0.34,S10 Glass Breath L
+598,10,5,286.12,4.1,glass_pad,Z1,2,293.6648,293.6648,62,10:1,0.3105,0.66,S10 Glass Breath R
+599,10,5,286.22,2.1,concert_harp,Z2,18,978.8826,978.8826,83,10-DNA,0.48,0.8,S10 B-DNA Base-Pair Rung #10/10 -> Decagram Point
+600,10,5,288.5,2.6,concert_harp,ALL,19,1174.6591,1174.6591,86,10->1,0.52,0.76,S10 Harmonia Mundi Polygon Fold 10 -> 1
+601,10,5,288.84,2.6,concert_harp,ALL,17,978.8826,978.8826,83,9->1,0.5,0.7022,S10 Harmonia Mundi Polygon Fold 9 -> 1
+602,10,5,289.18,2.6,concert_harp,ALL,15,880.9943,880.9943,81,8->1,0.48,0.6444,S10 Harmonia Mundi Polygon Fold 8 -> 1
+603,10,5,289.52,2.6,concert_harp,ALL,13,783.106,783.106,79,7->1,0.46,0.5867,S10 Harmonia Mundi Polygon Fold 7 -> 1
+604,10,5,289.86,2.6,concert_harp,ALL,11,734.1619,734.1619,78,6->1,0.44,0.5289,S10 Harmonia Mundi Polygon Fold 6 -> 1
+605,10,5,290.0,4.35,sub_pedal,Z1,1,73.4162,73.4162,38,10:1,0.4325,0.5,S10 Sub-Pedal Breath
+606,10,5,290.06,4.1,glass_pad,Z1,0,220.2486,220.2486,57,10:1,0.3248,0.34,S10 Glass Breath L
+607,10,5,290.12,4.1,glass_pad,Z1,2,367.081,367.081,66,10:1,0.2971,0.66,S10 Glass Breath R
+608,10,5,290.2,2.6,concert_harp,ALL,9,660.7457,660.7457,76,5->1,0.42,0.4711,S10 Harmonia Mundi Polygon Fold 5 -> 1
+609,10,5,290.54,2.6,concert_harp,ALL,7,587.3295,587.3295,74,4->1,0.4,0.4133,S10 Harmonia Mundi Polygon Fold 4 -> 1
+610,10,5,290.88,2.6,concert_harp,ALL,5,440.4972,440.4972,69,3->1,0.38,0.3556,S10 Harmonia Mundi Polygon Fold 3 -> 1
+611,10,5,291.22,2.6,concert_harp,ALL,3,367.081,367.081,66,2->1,0.36,0.2978,S10 Harmonia Mundi Polygon Fold 2 -> 1
+612,10,5,291.56,2.6,concert_harp,ALL,1,293.6648,293.6648,62,1->1,0.34,0.24,S10 Harmonia Mundi Polygon Fold 1 -> 1
+613,10,5,292.1,7.6,quartz_bowl,ALL,1,293.6648,293.6648,62,1:1,0.78,0.5,S10 Ouroboros Capstone: 10 -> 1 Pure Quartz Monad Bowl & Tiffany Glow
+614,10,5,292.15,7.5,sub_pedal,Z1,1,73.4162,73.4162,38,1:1,0.44,0.5,S10 Final 1:1 Fundamental Sanctuary Grounding
+615,10,5,294.2,4.8,felt_piano,Z1,1,587.3295,587.3295,74,1:1,0.28,0.5,S10 Final Whispered Monad Seed Star Bell
